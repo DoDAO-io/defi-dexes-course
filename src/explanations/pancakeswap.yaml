@@ -1,17 +1,14 @@
 - title: Pancakeswap
   shortTitle: Introduction
-  key: pancakeswap
+  key: pancake-introduction
   details: |
     Pancakeswap is a decentralized exchange (DEX) that operates on the Binance Smart Chain (BSC), a blockchain platform designed to support high-speed transactions and low fees. Pancakeswap allows users to buy, sell, and trade a wide range of cryptocurrency assets, including non-fungible tokens (NFTs).
 
     ### How Does Pancakeswap Work?
 
-
     Pancakeswap is built on the Binance Smart Chain, which utilizes the same technology as the Binance Chain but includes additional features such as smart contracts. This allows Pancakeswap to offer a range of decentralized finance (DeFi) services, including yield farming, liquidity provision, and trading.
 
-
     Users can access Pancakeswap through a web browser or through a compatible wallet such as Trust Wallet or MetaMask. Once connected, users can browse the available assets and trade them on the exchange. Pancakeswap uses an automated market maker (AMM) model, which means that users don't have to wait for their orders to be matched with other buyers or sellers. Instead, the AMM algorithm calculates the price of each asset based on the supply and demand of the market.
-
 
     ### Binance Smart Chain
 
@@ -96,9 +93,9 @@
 
     Pancakeswap also has initial farm offerings (IFOs) that allow users to earn tokens by providing liquidity to a new project. IFO is a way for the platform to raise funds and create initial liquidity for the CAKE token. The IFOs on Pancakeswap are usually open for a limited time, and users who provide liquidity during the IFO period are rewarded with tokens. Pancakeswap uses a "dutch auction" format for its IFOs. This means that the price of CAKE decreases over time until the IFO ends, and users can purchase CAKE at the lowest price reached during the IFO. This allows users to purchase CAKE at a discount compared to the price it will be traded at once the IFO ends.
 
-- title: CAKE
+- title: CAKE Token
   shortTitle: CAKE
-  key: cake
+  key: cake-token
   details: |
     CAKE is a cryptocurrency token that is used on the Pancakeswap decentralized exchange (DEX). It is a Binance Smart Chain (BSC) token and is used for a variety of purposes on the Pancakeswap platform, including staking, governance, and liquidity provision.
 
@@ -114,4 +111,3 @@
 
     Finally, CAKE is used for liquidity provision on Pancakeswap. Users can provide liquidity to the platform by adding their CAKE and other tokens to liquidity pools. In return, they receive a share of the trading fees and can earn rewards in the form of CAKE. The demand for CAKE is driven by the need for liquidity on the platform, as well as the overall demand for BSC tokens.
 
-    

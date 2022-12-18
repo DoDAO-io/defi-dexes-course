@@ -15,4 +15,4 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  
  | S.No        | Title       | Contents   | Links      | Status      | Completion Week |
  | ----------- | ----------- |----------- |----------- | ----------- | ----------- |
-  
+ | 1      | PancakeSwap | | [Details](generated/topics/pancakeswap.md) <br/> [Explanations](generated/explanations/pancakeswap.md) <br/>  <br/>  <br/> [Questions](generated/questions/pancakeswap.md) | In Progress | In Progress | 
