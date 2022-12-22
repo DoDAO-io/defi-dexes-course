@@ -23,4 +23,12 @@ details: >-
   6) Chapter - Pacake Swap
   7) Chapter - SushiSwap
 duration: 30 mins - 1 hour
-topics: []
+topics: 
+  - title: PancakeSwap
+    key: pancakeswap
+    details: >
+      This chapter talks about Pancakeswap.
+    explanations: pancakeswap.yaml
+    questions: pancakeswap.yaml
+    status: In Progress
+    completionWeek: In Progress
