@@ -331,6 +331,321 @@
       ],
       "readings": [],
       "summaries": []
+    },
+    {
+      "title": "SushiSwap",
+      "key": "sushiswap",
+      "details": "This chapter talks about Sushiswap.\n",
+      "order": 1,
+      "explanations": [
+        {
+          "title": "SushiSwap",
+          "shortTitle": "Introduction",
+          "key": "sushi-introduction",
+          "details": "#### What is Sushi?\nSushi is a decentralized organization that aims to solve the liquidity problem in the decentralized market. The liquidity problem refers to the difficulty of connecting different forms of liquidity with decentralized markets and vice versa. Sushi aims to create a range of network effects through its various decentralized markets and instruments, rather than just focusing on a single solution. These instruments include a decentralized exchange, a decentralized lending market, yield instruments, an auction platform, an AMM framework, and staking derivatives. Sushi's products are designed to maintain decentralized governance through the use of $SUSHI tokens, while also allowing for innovation and decision-making by the core team.\n\n\n### Products\n\n#### BentoBox\n\nThe BentoBox, also known as Bento, is a unique feature of Sushi. It is a token vault that generates yield for deposited capital through low-risk farming strategies. Bento tracks the user's deposits through artificial balance, which allows the funds to be simultaneously applied to various strategies while being accounted for as idle. These strategies can include depositing tokens on Compound for lending yield or serving up $SUSHI on the SushiBar to earn more $SUSHI. The BentoBox can also be used for flash loans, which can increase the value of the user's idle capital. The BentoBox serves as the foundation for all of Sushi's financial instruments, allowing users to utilize their tokens in various ways on the platform.\n\n\n#### Kashi Lending\n\nKashi is a lending and margin trading platform, built on the BentoBox, that allows users to create customized and gas-efficient markets for lending, borrowing, and collateralizing a variety of DeFi tokens, stable coins, and synthetic assets. It uses a unique isolated market framework that supports a diverse range of tokens. Unlike traditional DeFi money markets where high-risk assets can introduce risk to the entire protocol, each market on Kashi is isolated, meaning that the risk of assets within one lending market does not affect the risk of another lending market.\n\n\nThis design enables users to add any token to the platform, as the risk of each market is isolated. It also allows users to achieve leverage in a single click, as lending and borrowing in the same market are composable. In the past, users seeking leverage on an asset would have had to borrow on one platform and lend on another, but Kashi's design allows for this process to be automated in a single click. Overall, Kashi Lending aims to provide a flexible and efficient platform for lending and borrowing in the decentralized market.\n\n\n#### Limit Order V2\n\nLimit Order v2 is a feature on Sushi's decentralized exchange that allows users to place limit orders on the platform. A limit order is a type of order that allows the user to specify a certain price at which they are willing to buy or sell an asset. If the market price of the asset reaches the specified price, the order will be filled. Limit Order v2 is an updated version of the original limit order feature, with improvements that aim to increase efficiency and reduce gas costs.\n\n\nOne of the main improvements in Limit Order v2 is the use of a \"virtual balance\" system. This system allows users to place limit orders without actually holding the asset they are trying to buy or sell. Instead, the virtual balance is used to track the user's intended trade and the order is filled when the market price reaches the specified price. This system reduces gas costs and allows users to place limit orders more efficiently.\n\n\nAdditionally, Limit Order v2 introduces a new feature called \"order batching,\" which allows multiple orders to be processed together in a single transaction. This reduces gas costs and increases the speed of order processing. Overall, Limit Order v2 aims to provide a more efficient and cost-effective way for users to place limit orders on the Sushi decentralized exchange.\n\n\n#### Masterchef v2\n\nMasterchef v2 is a feature that allows users to automate the creation of liquidity pools on SushiSwap. A liquidity pool is a pool of assets that users can contribute in exchange for a share of the trading fees. By automating the creation of liquidity pools, Masterchef v2 aims to make it easier for users to provide liquidity and earn rewards on the platform.\n\n\nMasterchef v2 introduces several improvements over the original Masterchef feature, including the ability to create liquidity pools for any ERC-20 token and the ability to adjust the weight of each asset in the pool. It also introduces a new feature called \"flex pools,\" which allow users to provide liquidity for multiple assets within a single pool. This allows users to earn rewards on multiple assets at once, rather than having to create separate pools for each asset. Overall, Masterchef v2 aims to provide a more flexible and efficient way for users to provide liquidity on the SushiSwap platform.\n\n\n#### SushiSwap\n\nSushiSwap is a decentralized exchange (DEX) that allows users to buy and sell cryptocurrencies and tokens. It is built on the Ethereum blockchain and utilizes the Automated Market Maker (AMM) model for pricing and liquidity. AMM exchanges do not have traditional order books, but rather use algorithmic pricing based on the supply and demand of assets in the exchange.\n\n\nOne of the key features of SushiSwap is its liquidity pools, which allow users to provide liquidity in exchange for a share of the trading fees. Users can contribute assets to a liquidity pool and receive a share of the pool proportional to their contribution. These pools provide liquidity for trades on the SushiSwap DEX and allow users to earn rewards for providing liquidity.\n\n\nSushiSwap also includes a feature called \"SushiBar,\" which allows users to earn yield on their idle tokens by serving them up for others to use in trades on the DEX. SushiSwap aims to provide a decentralized and efficient platform for buying and selling cryptocurrencies and tokens.\n\n#### Trident AMM Framework\n\nTrident is a framework for building and deploying automated market makers (AMMs) on the Ethereum blockchain. Unlike traditional AMMs, which are hard-coded pools with specific features, Trident is a framework that allows users to create any type of AMM they desire. It is based on the concept of \"interface-based programming,\" which allows developers to rapidly and collectively build new AMM pool types using a single interface called the IPool interface.\n\n\nTrident includes several features that aim to improve the efficiency and flexibility of AMMs. These include the ability to create dynamic liquidity types, the ability to prevent counterproductive game theoretics, and the ability to enable external developers to engineer high volume pools. It also includes a feature called the Trident Pipeline, which is a set of additional AMM pool types that are currently in development. These pool types include Concentrated and Index pools, which are designed to provide specialized liquidity for specific asset classes.\n\n\nIt is intended to be a framework that any AMM can build on top of, and can synergize with, in order to create a more efficient and flexible AMM ecosystem.\n\n\n#### Rewards\n\nYield farming is a term used in the cryptocurrency world to describe the process of earning a yield (or return) on your investment through a variety of methods, such as lending, staking, or providing liquidity to a decentralized exchange (DEX). In the context of Sushi, yield farming refers specifically to the process of earning returns on your investments in certain liquidity pools (or \"farms\") within the Sushi protocol.\n\n\nSushiSwap pools allow liquidity providers to add their tokens to liquidity pools. When they do so they will receive SLP tokens (Sushiswap Liquidity Provider tokens) for example if a user deposited $SUSHI and $ETH into a pool they would receive SUSHI-ETH SLP tokens.\n\n\nThese tokens represent a proportional share of the pooled assets, allowing a user to reclaim their funds at any point. As an LP its important to understand that you may be exposed to \"Impermanent Loss\" when providing liquidity. However, as a liquidity provider you will also receive trade fee reward.\n\n\n* Every time a user trades between $SUSHI and $ETH a 0.3% fee is taken on the trade. 0.25% of that trade goes back to the the LP pool.\n* If previously there were 100 SLP tokens representing 100 ETH and 100 SUSHI each token would be worth 1 ETH & 1 SRM. \n* If one user trade 10 ETH for 10 SUSHI, and another traded 10 SUSHI for 10 ETH, then there would now be 100.025 ETH and 100.025 SUSHI.\n* This means each LP token would be worth 1.00025 ETH and 1.00025 SUSHI now when it is withdrawn.\n* If you are farming on the farms, you will still get the 0.25% reward fee for being an LP when you next remove your liquidity.\n\n\n##### SushiBar\n\nThe SushiBar is a feature within the Sushi protocol that allows users to earn a yield by providing liquidity to certain pools. When users contribute liquidity to a pool, they earn a share of the fees generated by the pool in proportion to their contribution. These fees are paid in the form of SUSHI, the native token of the Sushi protocol.\n\n##### OnSen\n\nThe Onsen is a feature within the Sushi protocol that allows users to earn a yield by staking their SUSHI. When users stake their SUSHI, they earn a share of the fees generated by the Sushi protocol in proportion to their stake. These fees are also paid in SUSHI.\n"
+        },
+        {
+          "title": "Tokens",
+          "shortTitle": "Tokens",
+          "key": "sushi-tokens",
+          "details": "#### SUSHI\n\nSUSHI is the native token of the Sushi protocol. It is used as a medium of exchange within the Sushi protocol and can be bought, sold, and traded on various cryptocurrency exchanges.\n\n\nSUSHI has a number of features and functions within the Sushi protocol. It is used to pay fees on the SushiSwap decentralized exchange, which is built on top of the Sushi protocol. When users make trades on SushiSwap, a 0.3% fee is charged. This fee is paid in SUSHI and is used to support the operation and development of the Sushi protocol.\n\n\nSUSHI is also used as the primary token for governance on the Sushi protocol. SUSHI holders can participate in decision-making processes related to the protocol by voting on proposals using their SUSHI. This allows the community to have a say in the direction and development of the Sushi protocol.\n\n\nIn addition to its role as a medium of exchange and for governance, SUSHI can also be earned through yield farming on the Sushi protocol.The Sushi protocol includes features such as the SushiBar and the Onsen, which allow users to earn a yield on their investments by providing liquidity or staking their SUSHI, respectively.\n\n#### xSushi\n\nxSUSHI is a token issued by the Sushi protocol. It is designed to be a way for users to earn a yield on their investments in the Sushi protocol by providing liquidity through the SushiBar.\n\n\nTo earn xSUSHI, users must first purchase SUSHI, the native token of the Sushi protocol, and then deposit it into the SushiBar. When users contribute liquidity to the SushiBar, they receive liquidity provider (LP) tokens in return. These LP tokens represent a share of the pool and entitle the holder to a share of the fees generated by the pool.\n\n\nFees are generated on SushiSwap, which is built on top of the Sushi protocol. When users make trades on SushiSwap, a 0.3% fee is charged. 0.05% of this fee is added to the SushiBar pool in the form of LP tokens. These LP tokens are then sold for SUSHI on the SushiSwap DEX, and the newly purchased SUSHI is distributed to XSUSHI holders in proportion to their stake.\n\n\nThis process is repeated on a regular basis, with the rewards contract being called at least once per day. As a result, the value of XSUSHI is expected to increase over time as it accrues value from platform fees in addition to the underlying value of SUSHI. The value of XSUSHI is also linked to the value of SUSHI, as the fees that are distributed to the SushiBar are paid in SUSHI. However, the value of XSUSHI is typically higher than the value of SUSHI, as it accrues value from platform fees in addition to the underlying value of SUSHI.\n\n#### Criteria for listing tokens\n\nSome general factors that may be considered when evaluating a token for listing on SushiSwap: \n\n* **Compliance with legal and regulatory requirements**: Tokens must comply with all relevant legal and regulatory requirements in order to be listed on SushiSwap. This may include requirements related to securities laws, anti-money laundering regulations, and other relevant rules and regulations.\n\n* **Quality and security of the token**: Tokens must have a well-designed and secure smart contract in order to be listed on SushiSwap. The exchange may also consider the overall quality and stability of the token and its underlying technology.\n\n* **Community support and adoption**: Tokens that have strong community support and adoption may be more likely to be listed on SushiSwap. The exchange may consider the size and engagement of a token's community as well as the level of interest in the token among potential users.\n\n* **Transparency and openness**: Tokens that are transparent and open about their development, governance, and other key aspects may be more likely to be listed on SushiSwap. The exchange may consider factors such as the transparency of the token's project roadmap and the openness of its governance processes.\n"
+        }
+      ],
+      "questions": [
+        {
+          "uuid": "834ea979-fe20-4550-bfab-b4773c89b3ff",
+          "type": "SingleChoice",
+          "content": "What is Kashi?",
+          "hint": "Lending",
+          "explanation": "Kashi is a lending and margin trading platform, built on the BentoBox, that allows for anyone to create customized and gas-efficient markets for lending, borrowing, and collateralizing a variety of DeFi tokens, stable coins, and synthetic assets.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "A decentralized exchange",
+              "key": "A"
+            },
+            {
+              "content": "A lending and margin trading platform",
+              "key": "B"
+            },
+            {
+              "content": "A platform for lending and borrowing in the centralized market",
+              "key": "C"
+            },
+            {
+              "content": "A platform for buying and selling a variety of DeFi tokens",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "3c93e5e3-51cf-42a0-a071-8b78c420a299",
+          "type": "SingleChoice",
+          "content": "What is a limit order?",
+          "hint": "set price",
+          "explanation": "A limit order is a request to buy or sell an asset at a predetermined price. As distinct from a market order, which executes immediately after an order is placed, a limit order will not execute unless the asset reaches the price set by the user.",
+          "answerKeys": [
+            "C"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "An order that allows the user to borrow an asset from another user",
+              "key": "A"
+            },
+            {
+              "content": "An order that allows the user to lend an asset to another user",
+              "key": "B"
+            },
+            {
+              "content": "An order that allows the user to specify a certain price at which they are willing to buy or sell an asset",
+              "key": "C"
+            },
+            {
+              "content": "An order that allows the user to buy or sell an asset at the current market price",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "83621514-cfd3-4153-a066-1869c021f0fc",
+          "type": "SingleChoice",
+          "content": "What is the virtual balance system in Limit Order v2 used for?",
+          "hint": "NoHint",
+          "explanation": "It allows users to place limit orders without actually holding the asset they are trying to buy or sell and track the user's intended trade and fill the order when the market price reaches the specified price. Also reduces gas costs and increase efficiency.",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "To allow users to place limit orders without actually holding the asset they are trying to buy or sell",
+              "key": "A"
+            },
+            {
+              "content": "To track the user's intended trade and fill the order when the market price reaches the specified price",
+              "key": "B"
+            },
+            {
+              "content": "To reduce gas costs and increase efficiency",
+              "key": "C"
+            },
+            {
+              "content": "All of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "fa8060a7-e67a-4f30-a075-683b159af2ed",
+          "type": "SingleChoice",
+          "content": "What is the main advantage of Kashi Lending's isolated market framework?",
+          "hint": "Reduces risk",
+          "explanation": "The isolated market framework reduces the risk of assets within one lending market affecting the risk of another lending market.",
+          "answerKeys": [
+            "C"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "It allows users to achieve leverage in a single click",
+              "key": "A"
+            },
+            {
+              "content": "It allows users to add any token to the platform",
+              "key": "B"
+            },
+            {
+              "content": "It reduces the risk of assets within one lending market affecting the risk of another lending market",
+              "key": "C"
+            },
+            {
+              "content": "All of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "1747f15d-f462-4dcc-b953-13d408ff2408",
+          "type": "SingleChoice",
+          "content": "How does order batching in Limit Order v2 increase the speed of order processing?",
+          "hint": "NoHint",
+          "explanation": "explanation",
+          "answerKeys": [
+            "A"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "By allowing multiple orders to be processed together in a single transaction",
+              "key": "A"
+            },
+            {
+              "content": "By allowing users to specify a certain price at which they are willing to buy or sell an asset",
+              "key": "B"
+            },
+            {
+              "content": "By using a virtual balance system to track the user's intended trade",
+              "key": "C"
+            },
+            {
+              "content": "By reducing gas costs",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "af764006-f9d8-42cd-acd8-b4828459de06",
+          "type": "SingleChoice",
+          "content": "What is a liquidity pool?",
+          "hint": "NoHint",
+          "explanation": "Liquidity Pools are a place to pool tokens (otherwise known as liquidity) so that users can use them to make trades in a decentralized and permissionless way. These pools are created by users and decentralized apps (or Dapps, for short) who want to profit from their usage.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "A virtual balance system used to track the user's intended trade",
+              "key": "A"
+            },
+            {
+              "content": "A pool of assets that users can contribute in exchange for a share of the trading fees",
+              "key": "B"
+            },
+            {
+              "content": "A type of order that allows the user to specify a certain price at which they are willing to buy or sell an asset",
+              "key": "C"
+            },
+            {
+              "content": "An isolated market framework that supports a diverse range of tokens",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "1903cc6e-741c-4a2b-b8b6-4741f328be93",
+          "type": "MultipleChoice",
+          "content": "What is the Trident AMM Framework used for?",
+          "hint": "NoHint",
+          "explanation": "Trident is a framework for building and deploying automated market makers (AMMs) on the Ethereum blockchain. Unlike traditional AMMs, which are hard-coded pools with specific features, Trident is a framework that allows users to create any type of AMM they desire. It is based on the concept of \"interface-based programming,\" which allows developers to rapidly and collectively build new AMM pool types using a single interface called the IPool interface.",
+          "answerKeys": [
+            "A",
+            "C"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Building and deploying automated market makers (AMMs) on the Ethereum blockchain",
+              "key": "A"
+            },
+            {
+              "content": "Buying new tokens",
+              "key": "B"
+            },
+            {
+              "content": "Improving the efficiency and flexibility of AMMs",
+              "key": "C"
+            },
+            {
+              "content": "Creating a virtual balance system",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "8b0d92cc-d363-4a9a-b5ba-4c32c4d198c0",
+          "type": "SingleChoice",
+          "content": "What is the trade fee reward for liquidity providers in SushiSwap?",
+          "hint": "NoHint",
+          "explanation": "0.25% of the trade goes back to liquidity providers.",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "0.1% of the trade",
+              "key": "A"
+            },
+            {
+              "content": "0.3% of the trade",
+              "key": "B"
+            },
+            {
+              "content": "0.5% of the trade",
+              "key": "C"
+            },
+            {
+              "content": "0.25% of the trade",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "a97bf32f-1903-47f2-8369-39c230cb86b7",
+          "type": "SingleChoice",
+          "content": "Will liquidity providers in SushiSwap receive the trade fee reward when they remove their liquidity?",
+          "hint": "NoHint",
+          "explanation": "0.25% of the trade goes back to liquidity providers.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "No",
+              "key": "A"
+            },
+            {
+              "content": "Yes",
+              "key": "B"
+            },
+            {
+              "content": "It depends on the value of the pooled assets",
+              "key": "C"
+            },
+            {
+              "content": "It depends on the number of users who are trading",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "638d3148-dd25-4fd0-8b74-6c23de52f8cc",
+          "type": "SingleChoice",
+          "content": "How is the value of xSUSHI determined?",
+          "hint": "NoHint",
+          "explanation": "xSUSHI is a token issued by the Sushi protocol. It's value is determined by the value of SUSHI and the fees generated by SushiSwap.",
+          "answerKeys": [
+            "C"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "It is determined by the value of SUSHI and the fees generated by the SushiBar",
+              "key": "A"
+            },
+            {
+              "content": "It is determined by the value of SUSHI only",
+              "key": "B"
+            },
+            {
+              "content": "It is determined by the value of SUSHI and the fees generated by the SushiSwap decentralized exchange",
+              "key": "C"
+            },
+            {
+              "content": "It is determined by the fees generated by the SushiSwap decentralized exchange only",
+              "key": "D"
+            }
+          ]
+        }
+      ],
+      "readings": [],
+      "summaries": []
     }
   ]
 }

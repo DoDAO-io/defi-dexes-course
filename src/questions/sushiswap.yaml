@@ -1,0 +1,171 @@
+- uuid: 834ea979-fe20-4550-bfab-b4773c89b3ff
+  type: SingleChoice
+  content: What is Kashi?
+  hint: Lending
+  explanation: Kashi is a lending and margin trading platform, built on the BentoBox, that allows for anyone to create customized and gas-efficient markets for lending, borrowing, and collateralizing a variety of DeFi tokens, stable coins, and synthetic assets.
+  answerKeys:
+    - B
+  difficultyLevel: Low
+  choices:
+    - content: A decentralized exchange
+      key: A
+    - content: A lending and margin trading platform
+      key: B
+    - content: A platform for lending and borrowing in the centralized market
+      key: C
+    - content: A platform for buying and selling a variety of DeFi tokens
+      key: D
+- uuid: 3c93e5e3-51cf-42a0-a071-8b78c420a299
+  type: SingleChoice
+  content: What is a limit order?
+  hint: set price
+  explanation: A limit order is a request to buy or sell an asset at a predetermined price. As distinct from a market order, which executes immediately after an order is placed, a limit order will not execute unless the asset reaches the price set by the user.
+  answerKeys:
+    - C
+  difficultyLevel: Medium
+  choices:
+    - content: An order that allows the user to borrow an asset from another user
+      key: A
+    - content: An order that allows the user to lend an asset to another user
+      key: B
+    - content: An order that allows the user to specify a certain price at which they are willing to buy or sell an asset
+      key: C
+    - content: An order that allows the user to buy or sell an asset at the current market price
+      key: D
+- uuid: 83621514-cfd3-4153-a066-1869c021f0fc
+  type: SingleChoice
+  content: What is the virtual balance system in Limit Order v2 used for?
+  hint: NoHint
+  explanation: It allows users to place limit orders without actually holding the asset they are trying to buy or sell and track the user's intended trade and fill the order when the market price reaches the specified price. Also reduces gas costs and increase efficiency.
+  answerKeys:
+    - D
+  difficultyLevel: Low
+  choices:
+    - content: To allow users to place limit orders without actually holding the asset they are trying to buy or sell
+      key: A
+    - content: To track the user's intended trade and fill the order when the market price reaches the specified price
+      key: B
+    - content: To reduce gas costs and increase efficiency
+      key: C
+    - content: All of the above
+      key: D
+- uuid: fa8060a7-e67a-4f30-a075-683b159af2ed
+  type: SingleChoice
+  content: What is the main advantage of Kashi Lending's isolated market framework?
+  hint: Reduces risk
+  explanation: The isolated market framework reduces the risk of assets within one lending market affecting the risk of another lending market.
+  answerKeys:
+    - C
+  difficultyLevel: Medium
+  choices:
+    - content: It allows users to achieve leverage in a single click
+      key: A
+    - content: It allows users to add any token to the platform
+      key: B
+    - content: It reduces the risk of assets within one lending market affecting the risk of another lending market
+      key: C
+    - content: All of the above
+      key: D
+- uuid: 1747f15d-f462-4dcc-b953-13d408ff2408
+  type: SingleChoice
+  content: How does order batching in Limit Order v2 increase the speed of order processing?
+  hint: NoHint
+  explanation: explanation
+  answerKeys:
+    - A
+  difficultyLevel: Low
+  choices:
+    - content: By allowing multiple orders to be processed together in a single transaction
+      key: A
+    - content: By allowing users to specify a certain price at which they are willing to buy or sell an asset
+      key: B
+    - content: By using a virtual balance system to track the user's intended trade
+      key: C
+    - content: By reducing gas costs
+      key: D
+- uuid: af764006-f9d8-42cd-acd8-b4828459de06
+  type: SingleChoice
+  content: What is a liquidity pool?
+  hint: NoHint
+  explanation: Liquidity Pools are a place to pool tokens (otherwise known as liquidity) so that users can use them to make trades in a decentralized and permissionless way. These pools are created by users and decentralized apps (or Dapps, for short) who want to profit from their usage.
+  answerKeys:
+    - B
+  difficultyLevel: Low
+  choices:
+    - content: A virtual balance system used to track the user's intended trade
+      key: A
+    - content: A pool of assets that users can contribute in exchange for a share of the trading fees
+      key: B
+    - content: A type of order that allows the user to specify a certain price at which they are willing to buy or sell an asset
+      key: C
+    - content: An isolated market framework that supports a diverse range of tokens
+      key: D
+- uuid: 1903cc6e-741c-4a2b-b8b6-4741f328be93
+  type: MultipleChoice
+  content: What is the Trident AMM Framework used for?
+  hint: NoHint
+  explanation: Trident is a framework for building and deploying automated market makers (AMMs) on the Ethereum blockchain. Unlike traditional AMMs, which are hard-coded pools with specific features, Trident is a framework that allows users to create any type of AMM they desire. It is based on the concept of "interface-based programming," which allows developers to rapidly and collectively build new AMM pool types using a single interface called the IPool interface.
+  answerKeys:
+    - A
+    - C
+  difficultyLevel: Low
+  choices:
+    - content: Building and deploying automated market makers (AMMs) on the Ethereum blockchain
+      key: A
+    - content: Buying new tokens
+      key: B
+    - content: Improving the efficiency and flexibility of AMMs
+      key: C
+    - content: Creating a virtual balance system
+      key: D
+- uuid: 8b0d92cc-d363-4a9a-b5ba-4c32c4d198c0
+  type: SingleChoice
+  content: What is the trade fee reward for liquidity providers in SushiSwap?
+  hint: NoHint
+  explanation: 0.25% of the trade goes back to liquidity providers.
+  answerKeys:
+    - D
+  difficultyLevel: Medium
+  choices:
+    - content: 0.1% of the trade
+      key: A
+    - content: 0.3% of the trade
+      key: B
+    - content: 0.5% of the trade
+      key: C
+    - content: 0.25% of the trade
+      key: D
+- uuid: a97bf32f-1903-47f2-8369-39c230cb86b7
+  type: SingleChoice
+  content: Will liquidity providers in SushiSwap receive the trade fee reward when they remove their liquidity?
+  hint: NoHint
+  explanation: 0.25% of the trade goes back to liquidity providers.
+  answerKeys:
+    - B
+  difficultyLevel: Low
+  choices:
+    - content: No
+      key: A
+    - content: Yes
+      key: B
+    - content: It depends on the value of the pooled assets
+      key: C
+    - content: It depends on the number of users who are trading
+      key: D
+- uuid: 638d3148-dd25-4fd0-8b74-6c23de52f8cc
+  type: SingleChoice
+  content: How is the value of xSUSHI determined?
+  hint: NoHint
+  explanation: xSUSHI is a token issued by the Sushi protocol. It's value is determined by the value of SUSHI and the fees generated by SushiSwap.
+  answerKeys:
+    - C
+  difficultyLevel: Medium
+  choices:
+    - content: It is determined by the value of SUSHI and the fees generated by the SushiBar
+      key: A
+    - content: It is determined by the value of SUSHI only
+      key: B
+    - content: It is determined by the value of SUSHI and the fees generated by the SushiSwap decentralized exchange
+      key: C
+    - content: It is determined by the fees generated by the SushiSwap decentralized exchange only
+      key: D
