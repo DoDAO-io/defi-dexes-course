@@ -1,7 +1,8 @@
 title: Decentralized Exchanges
 key: decentralized-exchanges
 summary: >
-  This is an introductory course for anyone trying to understand how Decentralized Exchanges works in DeFi
+  This is an introductory course for anyone trying to understand how
+  Decentralized Exchanges works in DeFi
 highlights:
   - Intro to Decentralized Exchange
   - Introduction to Liquidity Pools
@@ -15,18 +16,14 @@ thumbnail: https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/DeFi/defi_logo.jp
 details: >-
   In this course we first give some introduction to Decentralized Exchanges
 
-  1) Chapter - Intro to Decentralized Exchange
-  2) Chapter - Introduction to Liquidity Pools
-  3) Chapter - Uniswap
-  4) Chapter - Curve
-  5) Chapter - Balancer
-  6) Chapter - Pacake Swap
-  7) Chapter - SushiSwap
+  1) Chapter - Intro to Decentralized Exchange 2) Chapter - Introduction to
+  Liquidity Pools 3) Chapter - Uniswap 4) Chapter - Curve 5) Chapter - Balancer
+  6) Chapter - Pacake Swap 7) Chapter - SushiSwap
 duration: 30 mins - 1 hour
-topics: 
+topics:
   - title: PancakeSwap
     key: pancakeswap
-    details: >
+    details: |
       This chapter talks about Pancakeswap.
     explanations: pancakeswap.yaml
     questions: pancakeswap.yaml
@@ -40,3 +37,5 @@ topics:
     questions: sushiswap.yaml
     status: In Progress
     completionWeek: In Progress
+courseAdmins:
+  - '0x34d014758297c00fea49935fce172677904d51ef'
