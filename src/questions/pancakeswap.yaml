@@ -1,40 +1,41 @@
 - uuid: a85b1753-f2da-4172-a420-50300ffe1c73
   type: SingleChoice
-  content: What is Pancakeswap?
-  hint: Not-centralized
-  explanation: Pancakeswap is a decentralized exchange.
+  content: Select the products from Pancakeswap.
+  hint: P for PancakeSwap
+  explanation: BentoBox and Kashi Lending are available on Sushiswap.
+  answerKeys:
+    - B
+    - D
+  difficultyLevel: Low
+  choices:
+    - content: BentoBox
+      key: A
+    - content: Pottery
+      key: B
+    - content: Kashi Lending
+      key: C
+    - content: Prediction
+      key: D
+- uuid: edafdadd-c346-4347-9d92-895271d5e506
+  type: SingleChoice
+  content: What is iCAKE used for on the PancakeSwap platform?
+  hint: NoHint
+  explanation: iCAKE used for determining the maximum commit limit in IFO public sales on the PancakeSwap platform.
   answerKeys:
     - A
   difficultyLevel: Low
   choices:
-    - content: A decentralized exchange
+    - content: Determining the maximum commit limit in IFO public sales
       key: A
-    - content: A centralized exchange
+    - content: Representing the boosted voting power of a user based on their fixed-term CAKE staking position
       key: B
-    - content: A stock exchange
+    - content: Boosting the yield of a user's liquidity farming by staking fixed-term CAKE
       key: C
-    - content: A smart contract exchange
-      key: D
-- uuid: edafdadd-c346-4347-9d92-895271d5e506
-  type: SingleChoice
-  content: What is Binance Smart Chain (BSC)?
-  hint: A blockchain network.
-  explanation: It is a blockchain network developed by Binance.
-  answerKeys:
-    - B
-  difficultyLevel: Low
-  choices:
-    - content: A decentralized exchange
-      key: A
-    - content: A blockchain network developed by Binance
-      key: B
-    - content: A blockchain network developed that uses Ethereum
-      key: C
-    - content: A cryptocurrency trading platform
+    - content: Allowing users to trade and transfer iCAKE tokens
       key: D
 - uuid: 598ed5b3-8ec1-41a7-af7b-f7f1ef34b6ca
   type: MultipleChoice
-  content: What is the main benefit of Binance Smart Chain (BSC) compared to Ethereum?
+  content: What is the main difference of Binance Smart Chain (BSC) compared to Ethereum?
   hint: Less secure and lower user base.
   explanation: BSC has faster transaction speeds and lower fees.
   answerKeys:
@@ -86,37 +87,37 @@
       key: D
 - uuid: 79c94035-0cc4-40e3-a5cb-839dd2a2dd39
   type: SingleChoice
-  content: What consensus mechanism is used on Binance Smart Chain (BSC)?
-  hint: NoHint
-  explanation: Binance Smart Chain (BSC) uses a proof-of-staked-authority consensus mechanism. 
+  content: How are the bCAKE multipliers calculated?
+  hint: All the options appear to be correct
+  explanation: The multipliers are calculated based on various metrics, including the number of CAKE staked in the fixed-term position, the duration of the staking position, and the number of LP tokens staked in the farm. Global metrics, such as the total amount of CAKE locked in the staking pool and the average lock duration, are also taken into account in the calculation. 
   answerKeys:
-    - C
+    - D
   difficultyLevel: Medium
   choices:
-    - content: Proof-of-work
+    - content: Based on the number of CAKE staked in the fixed-term staking pool and the duration of the staking position
       key: A
-    - content: Proof-of-stake
+    - content: Based on the number of LP tokens staked in the farm
       key: B
-    - content: Proof-of-staked-authority
+    - content: Based on the total amount of CAKE locked in the staking pool and the average lock duration
       key: C
-    - content: Proof-of-elapsed-time
+    - content: All of the above
       key: D
 - uuid: 1868960a-bc41-424c-b122-2e189c35c115
   type: SingleChoice
-  content: What is the native cryptocurrency of Binance Smart Chain (BSC)?
-  hint: NoHint
-  explanation: Binance Coin (BNB) is the native cryptocurrency of Binance Smart Chain.
+  content: What is vCAKE and how is it calculated?
+  hint: Not a new token
+  explanation: vCAKE is a numerical metric that represents the boosted voting power of a user based on their fixed-term CAKE staking position. It is calculated based on the amount of CAKE staked in the fixed-term staking pool and the remaining lock duration of the staking position.
   answerKeys:
-    - A
+    - B
   difficultyLevel: Low
   choices:
-    - content: Binance Coin (BNB)
+    - content: vCAKE is a new token that is traded and transferred on PancakeSwap. It is calculated based on the amount of CAKE staked in the fixed-term staking pool and the remaining lock duration of the staking position.
       key: A
-    - content: Bitcoin (BTC)
+    - content: vCAKE is a numerical metric that represents the boosted voting power of a user based on their fixed-term CAKE staking position. It is calculated based on the amount of CAKE staked in the fixed-term staking pool and the total lock duration of the staking position.
       key: B
-    - content: Ethereum (ETH)
+    - content: vCAKE is a feature on PancakeSwap that allows users to boost their liquidity farming yield by staking fixed-term CAKE. It is calculated based on various metrics, including the number of CAKE staked in the fixed-term position, the duration of the staking position, and the number of LP tokens staked in the farm.
       key: C
-    - content: CAKE
+    - content: vCAKE is a token that is earned by participating in governance voting on PancakeSwap. It is calculated based on the number of votes cast by the user and the overall voter turnout.
       key: D
 - uuid: e18feeb1-6319-49da-831d-b22d46b5a960
   type: SingleChoice
