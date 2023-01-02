@@ -9,7 +9,13 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  
  ## Description
  In this course we first give some introduction to Decentralized Exchanges
-1) Chapter - Intro to Decentralized Exchange 2) Chapter - Introduction to Liquidity Pools 3) Chapter - Uniswap 4) Chapter - Curve 5) Chapter - Balancer 6) Chapter - Pacake Swap 7) Chapter - SushiSwap
+1) Chapter - Intro to Decentralized Exchange 
+2) Chapter - Introduction to Liquidity Pools 
+3) Chapter - Uniswap 
+4) Chapter - Curve 
+5) Chapter - Balancer 
+6) Chapter - Pacake Swap 
+7) Chapter - SushiSwap
  
  ## Chapters
  

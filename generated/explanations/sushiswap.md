@@ -59,10 +59,22 @@ SushiSwap also includes a feature called "SushiBar," which allows users to earn 
 Trident is a framework for building and deploying automated market makers (AMMs) on the Ethereum blockchain. Unlike traditional AMMs, which are hard-coded pools with specific features, Trident is a framework that allows users to create any type of AMM they desire. It is based on the concept of "interface-based programming," which allows developers to rapidly and collectively build new AMM pool types using a single interface called the IPool interface.
 
 
-Trident includes several features that aim to improve the efficiency and flexibility of AMMs. These include the ability to create dynamic liquidity types, the ability to prevent counterproductive game theoretics, and the ability to enable external developers to engineer high volume pools. It also includes a feature called the Trident Pipeline, which is a set of additional AMM pool types that are currently in development. These pool types include Concentrated and Index pools, which are designed to provide specialized liquidity for specific asset classes.
+Trident includes several features that aim to improve the efficiency and flexibility of AMMs. These include the ability to create dynamic liquidity types, the ability to prevent counterproductive game theoretics, and the ability to handle high volumes of transactions and liquidity. It is intended to be a framework that any AMM can build on top of, and can synergize with, in order to create a more efficient and flexible AMM ecosystem.
 
 
-It is intended to be a framework that any AMM can build on top of, and can synergize with, in order to create a more efficient and flexible AMM ecosystem.
+The IPool interface is at the heart of the Trident framework, and it includes methods like swap, flashSwap, mint, and burn. By programming to this interface, developers can create new and innovative pool types, such as those for trading decentralized options, stablecoins, or zero coupon bonds. The framework also allows for the integration of any future competitive AMMs into Trident, and for the creation of dynamic liquidity types. Additionally, developers can use the framework to prepare pool types to fit their own strategies and to prevent counterproductive game theoretics. External developers can also engineer high volume pools and earn fees from them.
+
+
+In addition to the IPool interface, Trident also includes a pipeline of additional pool types that are currently in development. These include the Constant Product Pool, the Stable Pool, the Concentrated Pool, and the Index Pool. Each of these pools serves a different purpose and is designed to demonstrate the capabilities of the IPool interface.
+
+
+The Constant Product Pool is a type of AMM that maintains a constant product between the reserves of two different assets. This allows users to swap between these assets without affecting the overall liquidity of the pool. The Stable Pool, on the other hand, is designed to maintain stablecoin liquidity and allow users to swap between different stablecoins without affecting the overall liquidity of the pool.
+
+
+The Concentrated Pool is a type of AMM that is designed to hold a large amount of a single asset, allowing users to trade it with high liquidity. The Index Pool is a type of AMM that is designed to track the price of a specific index or asset, allowing users to trade it with high liquidity.
+
+
+Currently, the Trident framework is live on Polygon. In the future, the Trident team plans to expand the framework to other chains, including Ethereum, Binance Smart Chain, and more.
 
 
 #### Rewards
