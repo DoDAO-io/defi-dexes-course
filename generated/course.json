@@ -2,7 +2,7 @@
   "key": "decentralized-exchanges",
   "title": "Decentralized Exchanges",
   "summary": "This is an introductory course for anyone trying to understand how Decentralized Exchanges works in DeFi\n",
-  "details": "In this course we first give some introduction to Decentralized Exchanges\n1) Chapter - Intro to Decentralized Exchange 2) Chapter - Introduction to Liquidity Pools 3) Chapter - Uniswap 4) Chapter - Curve 5) Chapter - Balancer 6) Chapter - Pacake Swap 7) Chapter - SushiSwap",
+  "details": "In this course we first give some introduction to Decentralized Exchanges\n1) Chapter - Intro to Decentralized Exchange \n2) Chapter - Introduction to Liquidity Pools \n3) Chapter - Uniswap \n4) Chapter - Curve \n5) Chapter - Balancer \n6) Chapter - Pacake Swap \n7) Chapter - SushiSwap",
   "duration": "30 mins - 1 hour",
   "highlights": [
     "Intro to Decentralized Exchange",
@@ -649,5 +649,9 @@
       "readings": [],
       "summaries": []
     }
-  ]
+  ],
+  "topicConfig": {
+    "showExplanations": false,
+    "showHints": false
+  }
 }

@@ -13,12 +13,15 @@ highlights:
   - SushiSwap
 publishStatus: Draft
 thumbnail: https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/DeFi/defi_logo.jpeg
-details: >-
+details: |-
   In this course we first give some introduction to Decentralized Exchanges
-
-  1) Chapter - Intro to Decentralized Exchange 2) Chapter - Introduction to
-  Liquidity Pools 3) Chapter - Uniswap 4) Chapter - Curve 5) Chapter - Balancer
-  6) Chapter - Pacake Swap 7) Chapter - SushiSwap
+  1) Chapter - Intro to Decentralized Exchange 
+  2) Chapter - Introduction to Liquidity Pools 
+  3) Chapter - Uniswap 
+  4) Chapter - Curve 
+  5) Chapter - Balancer 
+  6) Chapter - Pacake Swap 
+  7) Chapter - SushiSwap
 duration: 30 mins - 1 hour
 topics:
   - title: PancakeSwap
@@ -31,7 +34,7 @@ topics:
     completionWeek: In Progress
   - title: SushiSwap
     key: sushiswap
-    details: >
+    details: |
       This chapter talks about Sushiswap.
     explanations: sushiswap.yaml
     questions: sushiswap.yaml
@@ -39,3 +42,6 @@ topics:
     completionWeek: In Progress
 courseAdmins:
   - '0x34d014758297c00fea49935fce172677904d51ef'
+topicConfig:
+  showExplanations: false
+  showHints: false
