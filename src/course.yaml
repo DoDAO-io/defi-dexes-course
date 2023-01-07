@@ -61,6 +61,16 @@ topics:
       7. Lower fees: Decentralized exchanges often have lower fees than
       centralized exchanges, as they do not need to cover the costs of
       maintaining a central infrastructure.
+
+
+      In this chapter we are going to 
+
+      1. Understand why exchanges are need and why people exchange tokens
+
+      2. We then look at new way of exchanging tokens i.e. without the need of
+      another party to perform the exchange
+
+      3. Different type of Automated Market Makers
   - title: PancakeSwap
     key: pancakeswap
     details: |
