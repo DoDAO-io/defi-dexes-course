@@ -24,14 +24,6 @@ details: |-
   7) Chapter - SushiSwap
 duration: 30 mins - 1 hour
 topics:
-  - title: PancakeSwap
-    key: pancakeswap
-    details: |
-      This chapter talks about Pancakeswap.
-    explanations: pancakeswap.yaml
-    questions: pancakeswap.yaml
-    status: In Progress
-    completionWeek: In Progress
   - key: introduction
     title: Introduction
     details: >-
@@ -69,6 +61,14 @@ topics:
       7. Lower fees: Decentralized exchanges often have lower fees than
       centralized exchanges, as they do not need to cover the costs of
       maintaining a central infrastructure.
+  - title: PancakeSwap
+    key: pancakeswap
+    details: |
+      This chapter talks about Pancakeswap.
+    explanations: pancakeswap.yaml
+    questions: pancakeswap.yaml
+    status: In Progress
+    completionWeek: In Progress
   - title: SushiSwap
     key: sushiswap
     details: |

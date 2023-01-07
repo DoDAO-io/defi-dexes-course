@@ -24,6 +24,15 @@
   },
   "topics": [
     {
+      "key": "introduction",
+      "title": "Introduction",
+      "details": "A decentralized exchange (DEX) is a cryptocurrency exchange that operates without a central authority. This means that it is not owned or controlled by a single entity, and instead relies on a decentralized network of computers to facilitate trades.\n\nSome benefits of decentralized exchanges include:\n\n1. Censorship resistance: Because decentralized exchanges are not controlled by a single entity, they are resistant to censorship. This means that users can trade freely without the risk of their transactions being blocked or reversed.\n2. Increased security: Decentralized exchanges do not hold users' funds, which means that there is a lower risk of funds being stolen or hacked.\n3. Privacy: Decentralized exchanges do not require users to provide personal information, which means that trades can be conducted privately.\n4. Accessibility: Decentralized exchanges can be accessed from anywhere in the world, as long as the user has an internet connection.\n5. Improved accessibility: Decentralized exchanges are often easier to use and more accessible than centralized exchanges, as they do not require users to go through a lengthy registration process.\n6. Greater control: Users have greater control over their assets on a decentralized exchange, as they are in charge of managing their own private keys.\n7. Lower fees: Decentralized exchanges often have lower fees than centralized exchanges, as they do not need to cover the costs of maintaining a central infrastructure.",
+      "explanations": [],
+      "readings": [],
+      "summaries": [],
+      "questions": []
+    },
+    {
       "title": "PancakeSwap",
       "key": "pancakeswap",
       "details": "This chapter talks about Pancakeswap.\n",
@@ -338,15 +347,6 @@
       ],
       "readings": [],
       "summaries": []
-    },
-    {
-      "key": "introduction",
-      "title": "Introduction",
-      "details": "A decentralized exchange (DEX) is a cryptocurrency exchange that operates without a central authority. This means that it is not owned or controlled by a single entity, and instead relies on a decentralized network of computers to facilitate trades.\n\nSome benefits of decentralized exchanges include:\n\n1. Censorship resistance: Because decentralized exchanges are not controlled by a single entity, they are resistant to censorship. This means that users can trade freely without the risk of their transactions being blocked or reversed.\n2. Increased security: Decentralized exchanges do not hold users' funds, which means that there is a lower risk of funds being stolen or hacked.\n3. Privacy: Decentralized exchanges do not require users to provide personal information, which means that trades can be conducted privately.\n4. Accessibility: Decentralized exchanges can be accessed from anywhere in the world, as long as the user has an internet connection.\n5. Improved accessibility: Decentralized exchanges are often easier to use and more accessible than centralized exchanges, as they do not require users to go through a lengthy registration process.\n6. Greater control: Users have greater control over their assets on a decentralized exchange, as they are in charge of managing their own private keys.\n7. Lower fees: Decentralized exchanges often have lower fees than centralized exchanges, as they do not need to cover the costs of maintaining a central infrastructure.",
-      "explanations": [],
-      "readings": [],
-      "summaries": [],
-      "questions": []
     },
     {
       "title": "SushiSwap",
