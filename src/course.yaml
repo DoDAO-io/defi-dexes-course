@@ -71,6 +71,7 @@ topics:
       another party to perform the exchange
 
       3. Different type of Automated Market Makers
+    explanations: introduction.yaml
   - title: PancakeSwap
     key: pancakeswap
     details: |
