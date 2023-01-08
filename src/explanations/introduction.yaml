@@ -234,6 +234,14 @@
   title: Automated Market Maker
   shortTitle: AMM
   details: >-
+    ## Introduction to Automated Market Makers
+
+    AMMs is the heart of Decentralized exchanges and 
+
+
+
+    ## Automated Market Makers
+
     An automated market maker (AMM) is a type of algorithm that operates as a
     decentralized exchange by setting prices and facilitating trades for a
     particular asset or group of assets. AMMs use a mathematical formula to
@@ -249,3 +257,6 @@
     centralized exchanges, including greater security, improved accessibility,
     and reduced fees. However, they may not offer the same level of liquidity as
     centralized exchanges.
+
+
+    ## Types of Automated Market Makers
