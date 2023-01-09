@@ -314,12 +314,14 @@
     </figure>
 
 
-    ### Hybrid Automated Market Makers Curve (a.k.a. Stableswap) came up with
-    the idea that if the assets being traded are  relatively stable in price
-    (e.g. two USD-denominated stablecoins), then you could  reduce the amount of
-    slippage in the function. This insight has led to several projects  using
-    hybrid functions to achieve desired properties based on the characteristics
-    of the  assets being traded. Here is the formula
+    ### Hybrid Automated Market Makers 
+
+    Curve (a.k.a. Stableswap) came up with the idea that if the assets being
+    traded are  relatively stable in price (e.g. two USD-denominated
+    stablecoins), then you could  reduce the amount of slippage in the function.
+    This insight has led to several projects  using hybrid functions to achieve
+    desired properties based on the characteristics of the  assets being traded.
+    Here is the formula
 
 
     $$
