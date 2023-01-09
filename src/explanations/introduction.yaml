@@ -257,24 +257,30 @@
     centralized exchanges, including greater security, improved accessibility,
     and reduced fees. However, they may not offer the same level of liquidity as
     centralized exchanges.
-    
-    ## Constant Product Market Maker(CFMM)
-    The secret ingredient in AMMs is a mathematical formula that can take many 
-    different forms. The most common one was proposed by Vitalik and popularized 
-    by Uniswap. 
-    
-    It's the 
-    
-    `"x * y = k"` formula also known as Constant Product Market Maker
 
-    The "k" in constant represents a equilibrium of assets that help to determine 
-    the costs of tokens in a liquidity pool. For example, if an automated market maker(AMM) has 
-    ether(ETH) and bitcoin(BTC), which are both volatile assets, then every time ETH is bought, 
-    the price of ETH will go up because there is less ETH in the pool. However, the price of
-    BTC will go down since there is more BTC in the pool. The pool always strives to maintain 
-    a constant balance, where the total value of ETH in the pool is always equal to the total 
-    value of BTC in the pool. It's only when new liquidity providers join that causes the 
-    pool to expand in size.
+    ## Constant Product Market Maker(CFMM) 
+
+    The secret ingredient in AMMs is a mathematical formula that can take many 
+    different forms. The most common one was proposed by Vitalik and
+    popularized  by Uniswap. 
+
+    It's the 
+
+
+    `"x * y = k"` 
+
+
+    formula also known as Constant Product Market Maker
+
+    The "k" in constant represents a equilibrium of assets that help to
+    determine  the costs of tokens in a liquidity pool. For example, if an
+    automated market maker(AMM) has  ether(ETH) and bitcoin(BTC), which are both
+    volatile assets, then every time ETH is bought,  the price of ETH will go up
+    because there is less ETH in the pool. However, the price of BTC will go
+    down since there is more BTC in the pool. The pool always strives to
+    maintain  a constant balance, where the total value of ETH in the pool is
+    always equal to the total  value of BTC in the pool. It's only when new
+    liquidity providers join that causes the  pool to expand in size.
 
     <figure>
       <img
@@ -284,19 +290,21 @@
     </figure>
 
 
-    ## Other Type of AMMs
-    Some other notable type of AMMs are 
-    
+    ## Other Type of AMMs Some other notable type of AMMs are 
+
     ### Constant Sum Market Makers
-    
-    The Constant Sum Market Maker (CSMM) is one variation of the constant product equation, 
-    which is represented as follows:
 
-    x+y = c 
+    The Constant Sum Market Maker (CSMM) is one variation of the constant
+    product equation,  which is represented as follows:
 
-    This equation simply states that the sum of two variables must remain constant. However, 
-    this approach is not profitable for any DEX because it cannot provide infinite liquidity. There 
-    would always be a situation where one of the pool reserves would be emptied.
+
+    `"x+y = c"` 
+
+
+    This equation simply states that the sum of two variables must remain
+    constant. However,  this approach is not profitable for any DEX because it
+    cannot provide infinite liquidity. There  would always be a situation where
+    one of the pool reserves would be emptied.
 
     <figure>
       <img
@@ -305,12 +313,14 @@
       <figcaption>Constant Sum Market Maker - Source: Dmitriy Berenzon</figcaption>
     </figure>
 
-    ### Hybrid Automated Market Makers
-    Curve (a.k.a. Stableswap) came up with the idea that if the assets being traded are 
-    relatively stable in price (e.g. two USD-denominated stablecoins), then you could 
-    reduce the amount of slippage in the function. This insight has led to several projects 
-    using hybrid functions to achieve desired properties based on the characteristics of the 
-    assets being traded. Here is the formula
+
+    ### Hybrid Automated Market Makers Curve (a.k.a. Stableswap) came up with
+    the idea that if the assets being traded are  relatively stable in price
+    (e.g. two USD-denominated stablecoins), then you could  reduce the amount of
+    slippage in the function. This insight has led to several projects  using
+    hybrid functions to achieve desired properties based on the characteristics
+    of the  assets being traded. Here is the formula
+
 
     $$
 
