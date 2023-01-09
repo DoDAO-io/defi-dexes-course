@@ -110,11 +110,24 @@ One popular example of an AMM is the Uniswap protocol, which allows users to buy
 It's the 
 `"x * y = k"` formula also known as Constant Product Market Maker
 The "k" in constant represents a equilibrium of assets that help to determine  the costs of tokens in a liquidity pool. For example, if an automated market maker(AMM) has  ether(ETH) and bitcoin(BTC), which are both volatile assets, then every time ETH is bought,  the price of ETH will go up because there is less ETH in the pool. However, the price of BTC will go down since there is more BTC in the pool. The pool always strives to maintain  a constant balance, where the total value of ETH in the pool is always equal to the total  value of BTC in the pool. It's only when new liquidity providers join that causes the  pool to expand in size.
+<figure>
+  <img
+  src="https://raw.githubusercontent.com/DoDAO-io/defi-dexes-course/main/images/constant_product_amm.png"
+  alt="Constant Product Market Maker">
+  <figcaption>Constant Product Market Maker - Source: Dmitriy Berenzon</figcaption>
+</figure>
+
 ## Other Type of AMMs Some other notable type of AMMs are 
 ### Constant Sum Market Makers
 The Constant Sum Market Maker (CSMM) is one variation of the constant product equation,  which is represented as follows:
 x+y = c 
 This equation simply states that the sum of two variables must remain constant. However,  this approach is not profitable for any DEX because it cannot provide infinite liquidity. There  would always be a situation where one of the pool reserves would be emptied.
+<figure>
+  <img
+  src="https://raw.githubusercontent.com/DoDAO-io/defi-dexes-course/main/images/constant_sum_amm.png"
+  alt="Constant Sum Market Maker">
+  <figcaption>Constant Sum Market Maker - Source: Dmitriy Berenzon</figcaption>
+</figure>
 ### Hybrid Automated Market Makers Curve (a.k.a. Stableswap) came up with the idea that if the assets being traded are  relatively stable in price (e.g. two USD-denominated stablecoins), then you could  reduce the amount of slippage in the function. This insight has led to several projects  using hybrid functions to achieve desired properties based on the characteristics of the  assets being traded. Here is the formula
 $$
 
@@ -123,8 +136,8 @@ A \cdot n^n \cdot \sum{x_i} +D = A \cdot D \cdot n^n + { \frac{D^{n+1}}{{n}^{n}\
 $$
 <figure>
   <img
-  src="https://developer.mozilla.org/static/img/favicon144.png"
-  alt="The beautiful MDN logo.">
-  <figcaption>MDN Logo</figcaption>
+  src="https://raw.githubusercontent.com/DoDAO-io/defi-dexes-course/main/images/curve.png"
+  alt="Constant Sum Market Maker">
+  <figcaption>Source: Curve Whitepaper</figcaption>
 </figure> 
  

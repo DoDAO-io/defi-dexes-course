@@ -276,6 +276,14 @@
     value of BTC in the pool. It's only when new liquidity providers join that causes the 
     pool to expand in size.
 
+    <figure>
+      <img
+      src="https://raw.githubusercontent.com/DoDAO-io/defi-dexes-course/main/images/constant_product_amm.png"
+      alt="Constant Product Market Maker">
+      <figcaption>Constant Product Market Maker - Source: Dmitriy Berenzon</figcaption>
+    </figure>
+
+
     ## Other Type of AMMs
     Some other notable type of AMMs are 
     
@@ -289,6 +297,13 @@
     This equation simply states that the sum of two variables must remain constant. However, 
     this approach is not profitable for any DEX because it cannot provide infinite liquidity. There 
     would always be a situation where one of the pool reserves would be emptied.
+
+    <figure>
+      <img
+      src="https://raw.githubusercontent.com/DoDAO-io/defi-dexes-course/main/images/constant_sum_amm.png"
+      alt="Constant Sum Market Maker">
+      <figcaption>Constant Sum Market Maker - Source: Dmitriy Berenzon</figcaption>
+    </figure>
 
     ### Hybrid Automated Market Makers
     Curve (a.k.a. Stableswap) came up with the idea that if the assets being traded are 
@@ -308,7 +323,7 @@
 
     <figure>
       <img
-      src="https://developer.mozilla.org/static/img/favicon144.png"
-      alt="The beautiful MDN logo.">
-      <figcaption>MDN Logo</figcaption>
+      src="https://raw.githubusercontent.com/DoDAO-io/defi-dexes-course/main/images/curve.png"
+      alt="Constant Sum Market Maker">
+      <figcaption>Source: Curve Whitepaper</figcaption>
     </figure>
