@@ -80,14 +80,6 @@ topics:
     questions: pancakeswap.yaml
     status: In Progress
     completionWeek: In Progress
-  - title: SushiSwap
-    key: sushiswap
-    details: |
-      This chapter talks about Sushiswap.
-    explanations: sushiswap.yaml
-    questions: sushiswap.yaml
-    status: In Progress
-    completionWeek: In Progress
   - key: uniswap
     title: Uniswap
     details: >+
@@ -104,6 +96,14 @@ topics:
 
 
 
+  - title: SushiSwap
+    key: sushiswap
+    details: |
+      This chapter talks about Sushiswap.
+    explanations: sushiswap.yaml
+    questions: sushiswap.yaml
+    status: In Progress
+    completionWeek: In Progress
   - key: balancer
     title: Balancer
     details: >
