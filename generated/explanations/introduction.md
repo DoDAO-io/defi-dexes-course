@@ -1,0 +1,130 @@
+## Header
+This is the course header. This will be added on top of every page. Go to [DoDAO.io](https://www.dodao.io) to know more.
+
+ ---
+ 
+ ## Introduction
+ 
+ **Backgorund**        
+## Exchange of Goods
+The exchanging of goods has been an important part of society since the beginning of time. Users have been buying and 
+selling stocks for centuries in different economies with a strong financial system that allows them to buy and hold any 
+type of asset. Only a digital representation is necessary for users to trade an asset in markets. The number of 
+participants affects the volatility of the asset and the overall stability of the financial system. More number of 
+participants lead to a more stable system.
+
+## Stock Exchanges
+Stock exchanges play a vital role in the functioning of the global economy, as they provide a way for companies to 
+raise capital and for investors to buy and sell stocks.
+
+Stock exchanges provide a platform for companies to raise capital by selling stocks to the public. Investors can buy 
+stocks in companies that they believe will be successful, with the expectation that the value of the stocks will 
+increase over time. Stock exchanges also provide a way for investors to sell their stocks if they need to or want 
+to realize their profits.
+
+## Blockchain Token
+Blockchain tokens can represent a wide variety of assets, including cryptocurrencies, utility tokens, security tokens, 
+and more. Cryptocurrencies are digital or virtual tokens that can be used as a medium of exchange. They are native 
+to a certain blockchain project and act as a way to fuel that project. Many projects enable certain functionality if 
+users hold the native currency of the project. For example, a user might need some of the project's currency to be 
+able to access certain features on the platform.
+
+So what exactly are utility tokens? Utility tokens are a type of cryptocurrency that gives users access to a 
+product or service. They are often used to fund new blockchain projects. And last but not least, security tokens are 
+a type of cryptocurrency that represents an investment in a company or asset. They give investors ownership rights 
+and can be traded on secondary markets.
+
+Blockchain tokens can be bought and sold on cryptocurrency exchanges, and their value is determined by supply 
+and demand. Some people buy blockchain tokens as a long-term investment, while others buy and sell them for 
+short-term profits.
+
+## Token Exchange
+There are many reasons why people might exchange crypto tokens, and these reasons are similar to why people might exchange stocks:
+
+1. Investment: Some people buy crypto tokens as a long-term investment, hoping that the value of the token will increase over time.
+2. Speculation: Some people buy crypto tokens with the intention of selling them for a profit in the short-term, similar to day trading.
+3. Use as a medium of exchange: Crypto tokens can be used as a medium of exchange for goods and services, similar to fiat currency.
+4. Diversification: Some people may buy crypto tokens as a way to diversify their investment portfolio.
+
+Along with these reasons, people would want to exchange tokens because of the utility associated with them. For example, 
+people might want to get tokens to be able to vote on a proposal, to pay gas fees, or to stake for rewards. 
+ **Decentralized Exchange & Automated Market Maker**        
+## Introduction to Decentralized Exchanges (DEXs)
+Centralized exchanges took a big hit in 2022 when a lot of them went bankrupt, leaving customers without their 
+hard-earned funds. On the other hand, decentralized exchanges (DEXs) proved to be more resilient and trustworthy 
+during this time.
+
+DEXs are at the heart of DeFi, so to get a good grasp of how DeFi works, it's important to understand DEXs well.
+
+
+## Stock Exchanges
+There is at least one centralized exchange in every country where users can buy and sell stocks or other financial products.
+Since the centralized banking ecosystem is very well mature, we don't interact with them directly. We normally use the 
+trading account of our bank to place buy or sell orders on these exchanges.
+
+The main functions of a stock exchange include:
+1. Providing a platform for the buying and selling of securities: A stock exchange allows investors to buy and sell securities through an organized and regulated marketplace.
+2. Setting listing requirements: A stock exchange has rules and regulations that companies must follow in order to be listed on the exchange and have their securities traded.
+3. Disseminating price information: A stock exchange provides real-time price quotes for the securities traded on the exchange, which helps investors make informed investment decisions.
+4. Providing liquidity: By bringing together buyers and sellers in a centralized marketplace, a stock exchange helps to increase the liquidity of securities, making it easier for investors to buy and sell them.
+5. Promoting transparency: A stock exchange helps to promote transparency in the financial markets by requiring listed companies to disclose financial information and other important information to the public.
+6. Regulating market participants: A stock exchange is responsible for enforcing rules and regulations that govern the behavior of market participants, including brokers, traders, and issuers of securities.
+
+## Centralized Crypto Exchanges
+Centralized crypto exchanges are similar to traditional centralized stock exchanges, but they aren't always 
+regulated and they don't necessarily provide transparency when it comes to their reserves and liabilities. 
+
+However, these exchanges make it easy for users to get exposure to cryptocurrency by integrating with banks and making 
+it easy to convert fiat currency to cryptocurrency or vice versa. Additionally, users don't have to deal with the hassle 
+of managing private keys for crypto wallets since they can simply use a normal email and password account on these 
+exchanges.
+
+As many centralized exchanges went under in 2022 and customers lost their funds, many people moved to decentralized 
+exchanges where they could hold custody of their own funds. This proved to be a crucial year for decentralized exchanges, 
+as they gained a lot of business from people looking for a more secure way to store their assets.
+
+## Decentralized Exchanges
+Decentralized exchanges (DEXs) are marketplaces that are run purely by smart contracts, without any human intervention. 
+Transactions on DEXs are recorded on the blockchain, which allows for transparent and secure record-keeping. This means 
+that DEXs do not hold user funds; instead, users retain control of their own assets when trading on the platform.
+
+Centralized exchanges, on the other hand, are controlled by a single entity and typically hold users' funds in a 
+centralized wallet. This makes them vulnerable to outages, hacks, and other forms of interference.
+
+Some of the benefits of decentralized exchanges include:
+1. More reliable: Since DEXs do not hold users' funds and transactions are recorded on a blockchain, they are generally considered to be more secure than centralized exchanges.
+2. Greater resistance to censorship: DEXs are decentralized and do not rely on a central point of control, making them resistant to censorship. This can be important for users in countries with strict internet regulations or for traders looking to avoid having their transactions blocked by governments or financial institutions.
+3. More privacy: DEXs do not require users to provide personal information, making them a more private option for trading.
+4. Self Custody: With DEXs, users have full control over their assets as they retain possession of their private keys.
+5. Improved accessibility: DEXs can be accessed from any location, as they do not rely on a central server. This makes them more accessible to users in countries where centralized exchanges may be blocked. 
+ **Automated Market Maker**        
+## Introduction to Automated Market Makers
+AMMs is the heart of Decentralized exchanges and 
+
+
+## Automated Market Makers
+An automated market maker (AMM) is a type of algorithm that operates as a decentralized exchange by setting prices and facilitating trades for a particular asset or group of assets. AMMs use a mathematical formula to determine the price of an asset based on the supply and demand for that asset. This allows them to operate without the need for a traditional order book, which is a list of buy and sell orders maintained by a centralized exchange.
+
+One popular example of an AMM is the Uniswap protocol, which allows users to buy and sell a variety of cryptocurrencies using a mathematical formula to determine prices. AMMs can offer several benefits over traditional centralized exchanges, including greater security, improved accessibility, and reduced fees. However, they may not offer the same level of liquidity as centralized exchanges.
+## Constant Product Market Maker(CFMM) The secret ingredient in AMMs is a mathematical formula that can take many  different forms. The most common one was proposed by Vitalik and popularized  by Uniswap. 
+It's the 
+`"x * y = k"` formula also known as Constant Product Market Maker
+The "k" in constant represents a equilibrium of assets that help to determine  the costs of tokens in a liquidity pool. For example, if an automated market maker(AMM) has  ether(ETH) and bitcoin(BTC), which are both volatile assets, then every time ETH is bought,  the price of ETH will go up because there is less ETH in the pool. However, the price of BTC will go down since there is more BTC in the pool. The pool always strives to maintain  a constant balance, where the total value of ETH in the pool is always equal to the total  value of BTC in the pool. It's only when new liquidity providers join that causes the  pool to expand in size.
+## Other Type of AMMs Some other notable type of AMMs are 
+### Constant Sum Market Makers
+The Constant Sum Market Maker (CSMM) is one variation of the constant product equation,  which is represented as follows:
+x+y = c 
+This equation simply states that the sum of two variables must remain constant. However,  this approach is not profitable for any DEX because it cannot provide infinite liquidity. There  would always be a situation where one of the pool reserves would be emptied.
+### Hybrid Automated Market Makers Curve (a.k.a. Stableswap) came up with the idea that if the assets being traded are  relatively stable in price (e.g. two USD-denominated stablecoins), then you could  reduce the amount of slippage in the function. This insight has led to several projects  using hybrid functions to achieve desired properties based on the characteristics of the  assets being traded. Here is the formula
+$$
+
+A \cdot n^n \cdot \sum{x_i} +D = A \cdot D \cdot n^n + { \frac{D^{n+1}}{{n}^{n}\cdot \prod{x_i} } }
+
+$$
+<figure>
+  <img
+  src="https://developer.mozilla.org/static/img/favicon144.png"
+  alt="The beautiful MDN logo.">
+  <figcaption>MDN Logo</figcaption>
+</figure> 
+ 
