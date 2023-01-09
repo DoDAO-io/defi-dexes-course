@@ -88,6 +88,22 @@ topics:
     questions: sushiswap.yaml
     status: In Progress
     completionWeek: In Progress
+  - key: uniswap
+    title: Uniswap
+    details: >+
+      Uniswap is a decentralized exchange (DEX) built on Ethereum that allows
+      users to exchange ERC-20 tokens. It was one of the first decentralized
+      exchanges to gain widespread adoption and is known for its simplicity and
+      ease of use. Unlike centralized exchanges, which match buyers and sellers
+      and facilitate trades on their own platforms, Uniswap allows users to
+      trade directly with one another without the need for an intermediary. This
+      makes it easier for users to trade without the need to go through
+      know-your-customer (KYC) or anti-money laundering (AML) checks, and
+      without the risk of having their funds held by a centralized entity that
+      could be hacked or go bankrupt.
+
+
+
   - key: balancer
     title: Balancer
     details: >
@@ -124,22 +140,6 @@ topics:
       emissions get distributed through the gauge system. Gauges allow LPs
       (liquidity providers) to stake their BPT to claim BAL from liquidity
       mining.
-  - key: uniswap
-    title: Uniswap
-    details: >+
-      Uniswap is a decentralized exchange (DEX) built on Ethereum that allows
-      users to exchange ERC-20 tokens. It was one of the first decentralized
-      exchanges to gain widespread adoption and is known for its simplicity and
-      ease of use. Unlike centralized exchanges, which match buyers and sellers
-      and facilitate trades on their own platforms, Uniswap allows users to
-      trade directly with one another without the need for an intermediary. This
-      makes it easier for users to trade without the need to go through
-      know-your-customer (KYC) or anti-money laundering (AML) checks, and
-      without the risk of having their funds held by a centralized entity that
-      could be hacked or go bankrupt.
-
-
-
 courseAdmins:
   - '0x34d014758297c00fea49935fce172677904d51ef'
 topicConfig:
