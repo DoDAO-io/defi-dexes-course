@@ -140,6 +140,7 @@ topics:
       emissions get distributed through the gauge system. Gauges allow LPs
       (liquidity providers) to stake their BPT to claim BAL from liquidity
       mining.
+    explanations: balancer.yaml
 courseAdmins:
   - '0x34d014758297c00fea49935fce172677904d51ef'
 topicConfig:
