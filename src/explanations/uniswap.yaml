@@ -1,0 +1,51 @@
+- key: introduction
+  title: Introduction
+  shortTitle: Introduction
+  details: >
+    ### Version 1
+
+    Uniswap V1 allows traders on the Ethereum network to use a new system of
+    trading called Automated Market Maker (AMM) to allow traders to trade with a
+    pool of money at any point in time with very low fees and they can
+    theoretically trade for an infinite amount of coins. This happens because
+    Uniswap was created using smart contracts. Here to understand the AMM, for
+    example, if traders spent $200 they would get 1ETH and the next time when
+    again they spent $200 they get 0.8ETH because due to buying the price of the
+    1ETH went up. Other investors and traders deposit the money in the pool and
+    then trade with this money.
+
+
+
+    One of the drawbacks of the V1 was that it had many Liquidity pools but all
+    of the pools had to contain at least Ethereum. For example, the pool can
+    comprise of USDC and Ethereum pair or a Basic Attention Token (BAT) and
+    Ethereum pair. Now if a trader wanted to trade USDC against BAT, they need
+    to interact with each of the pools hence extra work.
+
+
+    ### Version 2
+
+    The issue of interacting with various pools in V1 was resolved in V2. In V2,
+    one can create any pool they want. For example, one can have USDC and BAT
+    pair liquidity pool. Uniswap became famous for this transformation and since
+    then they have grown exponentially. This update made Uniswap the most forked
+    project in the  DeFi space.
+
+
+    ### Version 3
+
+      #### Concentrated Liquidity
+      Uniswap V3 was launched on March 2021, on the Ethereum Mainnnet and Optimism Mainnet (Secondary Network used to scale Ethereum). The big update in V3 is the concept of concentrated Liquidity. The basic advantage of concentrated liquidity is that one can make their money work harder by applying some rules to it. Generally, when an investor puts their money in the liquidity pool and this pool lets other traders trade back and forth in the same pool and the liquidity provider (the investor) collects some small fraction of fees for each trade. In V3, the investor chooses a certain price range where they want to concentrate their liquidity. For example, if the investor chooses the bracket of $3000-$4000 for the Ethereum pool it means they want to trade their assets only within this range of Ethereum, This concentrated liquidity provides better return rates compared to fairly distributed funds. However there is a disadvantage of Impermanent loss, but as long as the price range of Ethereum is within the range of the concentrated liquidity the investor earns better returns.
+
+      #### Flexible Fees
+      Uniswap V1 consisted only of flat fees of 0.3% and V2 had a 0.05% protocol fee which could be turned on/off. Whereas V3 onwards there is a three-tier fee structure:
+
+      1. `0.05%`- predicted for stablecoin pools like DAI/USDC
+      2. `0.30%`- for standard non-correlated pools like ETH/DAI
+      3. `1.00%`- for exotic non-correlated pairs
+
+      #### Advanced Oracles
+      The TWAP (Time-weighted average price) oracles saw substantial advancements with Uniswap v3. As opposed to Uniswap v2, it stores an array of cumulative sums, making it feasible to calculate any recent TWAP within the last nine days with just one on-chain call.
+
+
+      This enhancement makes it simpler and less expensive to produce more sophisticated oracles. According to the team, this will result in a 50% reduction in the cost of gas used to maintain oracles.
