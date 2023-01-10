@@ -1,0 +1,102 @@
+- uuid: 4c78b85e-e09d-47e6-bd3a-759cc5e012c4
+  content: UNI token is a type of ?
+  answerKeys:
+    - C
+  type: SingleChoice
+  choices:
+    - content: Security Token
+      key: A
+    - content: Payment Token
+      key: B
+    - content: Governance Token
+      key: C
+    - content: Utility Token
+      key: D
+  hint: NoHint
+  explanation: Uniswap created the UNI token to promote community ownership over the protocol, letting stakeholders vote on important protocol modifications and development efforts.
+- uuid: 9e660092-4031-4bae-879c-76ab275e3587
+  content: Uniswap AMM employs which of the following AMM model ?
+  answerKeys:
+    - B
+  type: SingleChoice
+  choices:
+    - content: Constant Sum Market Maker
+      key: A
+    - content: Constant Product Market Maker
+      key: B
+    - content: Constant Mean Market Maker.
+      key: C
+    - content: None of these
+      key: D
+  hint: NoHint
+  explanation: "Uniswap AMM works on the Constant Market Maker Model to determine the exchange price: X * Y = K"
+- uuid: c4cbef6f-e7a1-4342-aede-b536923f8bd6
+  content: Which of the following is the prime update in V3 ?
+  answerKeys:
+    - B
+  type: SingleChoice
+  choices:
+    - content: Flexible Fees
+      key: A
+    - content: Concentrated Liquidity
+      key: B
+    - content: Non-Fungible Liquidity
+      key: C
+    - content: Active Liquidity
+      key: D
+  hint: NoHint
+  explanation:  Uniswap V3 was launched on March 2021, on the Ethereum Mainnnet and Optimism Mainnet (Secondary Network used to scale Ethereum). The big update in V3 is the concept of concentrated Liquidity.
+- uuid: 8f79ba88-6450-4f51-b39a-3d6c0097bcb3
+  content: Which of the following three-tier fess structure is used in V3?
+  answerKeys:
+    - C
+  type: SingleChoice
+  choices:
+    - content: 0.05% for Non-correlated Pairs, 0.30% for DAI, 1.00% for ETH
+      key: A
+    - content: 0.05% for ETH, 1.00% for DAI, 0.30% for Non-correlated Pairs
+      key: B
+    - content: 0.05% for DAI, 0.30% for ETH, 1.00% for Non-correlated Pairs
+      key: C
+    - content: 1.00% for DAI, 0.30% for foNon-correlated Pairs, 0.05% for ETH
+      key: D
+  hint: NoHint
+  explanation: |
+    V3 onwards there is a three-tier fee structure:
+
+    1. `0.05%`- predicted for stablecoin pools like DAI/USDC
+    2. `0.30%`- for standard non-correlated pools like ETH/DAI
+    3. `1.00%`- for exotic non-correlated pairs
+- uuid: 26736f95-33ca-444f-9aa2-905ac6b8cdd3
+  content: Uniswap LPs can face significant losses primarily due to -
+  answerKeys:
+    - A
+  type: SingleChoice
+  choices:
+    - content: Impermanent Loss
+      key: A
+    - content: Arbitrage
+      key: B
+    - content: The rising price of Ethereum
+      key: C
+    - content: Declining use of Uniswap
+      key: D
+  hint: NoHint
+  explanation: Liquidity providers have a disadvantage of Impermanent loss, but as long as the price range of Ethereum is within the range of the concentrated liquidity the investor earns better returns.
+- uuid: ded587ec-836a-4932-a37e-8f93528003de
+  content: Suppose in the ETH-USDC liquidity pool there are 79,180 Ethereum tokens and 134,457,994 USDC tokens, then the price of ETH will be ?
+  answerKeys:
+    - D
+  type: SingleChoice
+  choices:
+    - content: $1500
+      key: A
+    - content: $1000
+      key: B
+    - content: $1200
+      key: C
+    - content: $1700
+      key: D
+  hint: NoHint
+  explanation: |
+    `134,457994 / 79180 = 1698.13 or ~1700`
