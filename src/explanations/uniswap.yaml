@@ -62,3 +62,27 @@
 
 
       This enhancement makes it simpler and less expensive to produce more sophisticated oracles. According to the team, this will result in a 50% reduction in the cost of gas used to maintain oracles.
+- key: uniswap-for-liquidity-providers
+  shortTitle: Liquidity Providers
+  details: >
+    Anyone who is able to furnish a Uniswap exchange contract with an equal
+    amount of ETH and an ERC-20 token qualifies as a liquidity provider. They
+    receive tokens from the exchange contract in exchange, which they may use at
+    any moment to withdraw their share of the liquidity pool. A 0.3% fee is
+    charged for each trade made on the exchange, and this fee is allocated to
+    the liquidity pool. This has the effect of dividing the transaction cost
+    proportionally among all current liquidity providers since no new liquidity
+    tokens are created.
+
+
+
+    In fact, trades are not only guaranteed to happen when the price in the
+    larger market changes, but liquidity providers also get paid from all deals.
+    This is due to the fact that if the price on another exchange changes, the
+    price difference between that exchange and Uniswap will present an arbitrage
+    opportunity. Liquidity providers gain from Uniswap exchange fees when an
+    arbitrageur performs the lucrative trade that returns the Uniswap exchange
+    to parity with the larger market. Sure enough, arbitrageurs are hard at work
+    to keep prices closely aligned with the rest of the market on all Uniswap
+    exchanges with considerable liquidity.
+  title: Uniswap for Liquidity Providers
