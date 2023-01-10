@@ -15,13 +15,12 @@ publishStatus: Draft
 thumbnail: https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/DeFi/defi_logo.jpeg
 details: |-
   In this course we first give some introduction to Decentralized Exchanges
-  1) Chapter - Intro to Decentralized Exchange 
-  2) Chapter - Introduction to Liquidity Pools 
-  3) Chapter - Uniswap 
-  4) Chapter - Curve 
-  5) Chapter - Balancer 
-  6) Chapter - Pacake Swap 
-  7) Chapter - SushiSwap
+  1) Chapter - Intro to Decentralized Exchange  
+  2) Chapter - Uniswap 
+  3) Chapter - Curve 
+  4) Chapter - Balancer 
+  5) Chapter - Pacake Swap 
+  6) Chapter - SushiSwap
 duration: 30 mins - 1 hour
 topics:
   - key: introduction
@@ -72,14 +71,6 @@ topics:
 
       3. Different type of Automated Market Makers
     explanations: introduction.yaml
-  - title: PancakeSwap
-    key: pancakeswap
-    details: |
-      This chapter talks about Pancakeswap.
-    explanations: pancakeswap.yaml
-    questions: pancakeswap.yaml
-    status: In Progress
-    completionWeek: In Progress
   - key: uniswap
     title: Uniswap
     details: >+
@@ -96,14 +87,6 @@ topics:
 
 
 
-  - title: SushiSwap
-    key: sushiswap
-    details: |
-      This chapter talks about Sushiswap.
-    explanations: sushiswap.yaml
-    questions: sushiswap.yaml
-    status: In Progress
-    completionWeek: In Progress
   - key: balancer
     title: Balancer
     details: >-
@@ -115,6 +98,22 @@ topics:
       demand, giving projects the ability to experiment with liquidity.
     explanations: balancer.yaml
     questions: balancer.yaml
+  - title: PancakeSwap
+    key: pancakeswap
+    details: |
+      This chapter talks about Pancakeswap.
+    explanations: pancakeswap.yaml
+    questions: pancakeswap.yaml
+    status: In Progress
+    completionWeek: In Progress
+  - title: SushiSwap
+    key: sushiswap
+    details: |
+      This chapter talks about Sushiswap.
+    explanations: sushiswap.yaml
+    questions: sushiswap.yaml
+    status: In Progress
+    completionWeek: In Progress
 courseAdmins:
   - '0x34d014758297c00fea49935fce172677904d51ef'
 topicConfig:
