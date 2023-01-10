@@ -114,6 +114,7 @@ topics:
       adaptive fee structures that can react to market forces like volatility or
       demand, giving projects the ability to experiment with liquidity.
     explanations: balancer.yaml
+    questions: balancer.yaml
 courseAdmins:
   - '0x34d014758297c00fea49935fce172677904d51ef'
 topicConfig:

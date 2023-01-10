@@ -43,9 +43,9 @@
         },
         {
           "key": "automated-market-maker",
+          "title": "Automated Market Maker",
           "shortTitle": "AMM",
-          "details": "## Introduction to Automated Market Makers\nAMMs is the heart of Decentralized exchanges and \n\n\n## Automated Market Makers\nAn automated market maker (AMM) is a type of algorithm that operates as a decentralized exchange by setting prices and facilitating trades for a particular asset or group of assets. AMMs use a mathematical formula to determine the price of an asset based on the supply and demand for that asset. This allows them to operate without the need for a traditional order book, which is a list of buy and sell orders maintained by a centralized exchange.\n\nOne popular example of an AMM is the Uniswap protocol, which allows users to buy and sell a variety of cryptocurrencies using a mathematical formula to determine prices. AMMs can offer several benefits over traditional centralized exchanges, including greater security, improved accessibility, and reduced fees. However, they may not offer the same level of liquidity as centralized exchanges.\n## Constant Product Market Maker(CFMM) \nThe secret ingredient in AMMs is a mathematical formula that can take many  different forms. The most common one was proposed by Vitalik and popularized  by Uniswap. \nIt's the \n\n`\"x * y = k\"` \n\nformula also known as Constant Product Market Maker\nThe \"k\" in constant represents a equilibrium of assets that help to determine  the costs of tokens in a liquidity pool. For example, if an automated market maker(AMM) has  ether(ETH) and bitcoin(BTC), which are both volatile assets, then every time ETH is bought,  the price of ETH will go up because there is less ETH in the pool. However, the price of BTC will go down since there is more BTC in the pool. The pool always strives to maintain  a constant balance, where the total value of ETH in the pool is always equal to the total  value of BTC in the pool. It's only when new liquidity providers join that causes the  pool to expand in size.\n<figure>\n  <img\n  src=\"https://raw.githubusercontent.com/DoDAO-io/defi-dexes-course/main/images/constant_product_amm.png\"\n  alt=\"Constant Product Market Maker\">\n  <figcaption>Constant Product Market Maker - Source: Dmitriy Berenzon</figcaption>\n</figure>\n\n## Other Type of AMMs Some other notable type of AMMs are \n### Constant Sum Market Makers\nThe Constant Sum Market Maker (CSMM) is one variation of the constant product equation,  which is represented as follows:\n\n`\"x+y = c\"` \n\nThis equation simply states that the sum of two variables must remain constant. However,  this approach is not profitable for any DEX because it cannot provide infinite liquidity. There  would always be a situation where one of the pool reserves would be emptied.\n<figure>\n  <img\n  src=\"https://raw.githubusercontent.com/DoDAO-io/defi-dexes-course/main/images/constant_sum_amm.png\"\n  alt=\"Constant Sum Market Maker\">\n  <figcaption>Constant Sum Market Maker - Source: Dmitriy Berenzon</figcaption>\n</figure>\n\n### Hybrid Automated Market Makers \nCurve (a.k.a. Stableswap) came up with the idea that if the assets being traded are  relatively stable in price (e.g. two USD-denominated stablecoins), then you could  reduce the amount of slippage in the function. This insight has led to several projects  using hybrid functions to achieve desired properties based on the characteristics of the  assets being traded. Here is the formula\n\n$$\n\nA \\cdot n^n \\cdot \\sum{x_i} +D = A \\cdot D \\cdot n^n + { \\frac{D^{n+1}}{{n}^{n}\\cdot \\prod{x_i} } }\n\n$$\n<figure>\n  <img\n  src=\"https://raw.githubusercontent.com/DoDAO-io/defi-dexes-course/main/images/curve.png\"\n  alt=\"Constant Sum Market Maker\">\n  <figcaption>Source: Curve Whitepaper</figcaption>\n</figure>",
-          "title": "Automated Market Maker"
+          "details": "## Introduction to Automated Market Makers\nAMMs is the heart of Decentralized exchanges and \n\n\n## Automated Market Makers\nAn automated market maker (AMM) is a type of algorithm that operates as a decentralized exchange by setting prices and facilitating trades for a particular asset or group of assets. AMMs use a mathematical formula to determine the price of an asset based on the supply and demand for that asset. This allows them to operate without the need for a traditional order book, which is a list of buy and sell orders maintained by a centralized exchange.\n\nOne popular example of an AMM is the Uniswap protocol, which allows users to buy and sell a variety of cryptocurrencies using a mathematical formula to determine prices. AMMs can offer several benefits over traditional centralized exchanges, including greater security, improved accessibility, and reduced fees. However, they may not offer the same level of liquidity as centralized exchanges.\n## Constant Product Market Maker(CFMM) \nThe secret ingredient in AMMs is a mathematical formula that can take many  different forms. The most common one was proposed by Vitalik and popularized  by Uniswap. \nIt's the \n\n`\"x * y = k\"` \n\nformula also known as Constant Product Market Maker\nThe \"k\" in constant represents a equilibrium of assets that help to determine  the costs of tokens in a liquidity pool. For example, if an automated market maker(AMM) has  ether(ETH) and bitcoin(BTC), which are both volatile assets, then every time ETH is bought,  the price of ETH will go up because there is less ETH in the pool. However, the price of BTC will go down since there is more BTC in the pool. The pool always strives to maintain  a constant balance, where the total value of ETH in the pool is always equal to the total  value of BTC in the pool. It's only when new liquidity providers join that causes the  pool to expand in size.\n<figure>\n  <img\n  src=\"https://raw.githubusercontent.com/DoDAO-io/defi-dexes-course/main/images/constant_product_amm.png\"\n  alt=\"Constant Product Market Maker\">\n  <figcaption>Constant Product Market Maker - Source: Dmitriy Berenzon</figcaption>\n</figure>\n\n## Other Type of AMMs Some other notable type of AMMs are \n### Constant Sum Market Makers\nThe Constant Sum Market Maker (CSMM) is one variation of the constant product equation,  which is represented as follows:\n\n`\"x+y = c\"` \n\nThis equation simply states that the sum of two variables must remain constant. However,  this approach is not profitable for any DEX because it cannot provide infinite liquidity. There  would always be a situation where one of the pool reserves would be emptied.\n<figure>\n  <img\n  src=\"https://raw.githubusercontent.com/DoDAO-io/defi-dexes-course/main/images/constant_sum_amm.png\"\n  alt=\"Constant Sum Market Maker\">\n  <figcaption>Constant Sum Market Maker - Source: Dmitriy Berenzon</figcaption>\n</figure>\n\n### Hybrid Automated Market Makers \nCurve (a.k.a. Stableswap) came up with the idea that if the assets being traded are  relatively stable in price (e.g. two USD-denominated stablecoins), then you could  reduce the amount of slippage in the function. This insight has led to several projects  using hybrid functions to achieve desired properties based on the characteristics of the  assets being traded. Here is the formula\n\n$$\n\nA \\cdot n^n \\cdot \\sum{x_i} +D = A \\cdot D \\cdot n^n + { \\frac{D^{n+1}}{{n}^{n}\\cdot \\prod{x_i} } }\n\n$$\n<figure>\n  <img\n  src=\"https://raw.githubusercontent.com/DoDAO-io/defi-dexes-course/main/images/curve.png\"\n  alt=\"Constant Sum Market Maker\">\n  <figcaption>Source: Curve Whitepaper</figcaption>\n</figure>"
         }
       ],
       "questions": [],
@@ -369,19 +369,20 @@
       "summaries": []
     },
     {
-      "key": "uniswap",
       "title": "Uniswap",
+      "key": "uniswap",
       "details": "Uniswap is a decentralized exchange (DEX) built on Ethereum that allows users to exchange ERC-20 tokens. It was one of the first decentralized exchanges to gain widespread adoption and is known for its simplicity and ease of use. Unlike centralized exchanges, which match buyers and sellers and facilitate trades on their own platforms, Uniswap allows users to trade directly with one another without the need for an intermediary. This makes it easier for users to trade without the need to go through know-your-customer (KYC) or anti-money laundering (AML) checks, and without the risk of having their funds held by a centralized entity that could be hacked or go bankrupt.\n\n\n\n",
+      "order": 2,
       "explanations": [],
+      "questions": [],
       "readings": [],
-      "summaries": [],
-      "questions": []
+      "summaries": []
     },
     {
       "title": "SushiSwap",
       "key": "sushiswap",
       "details": "This chapter talks about Sushiswap.\n",
-      "order": 2,
+      "order": 3,
       "explanations": [
         {
           "title": "SushiSwap",
@@ -693,15 +694,16 @@
       "summaries": []
     },
     {
-      "key": "balancer",
       "title": "Balancer",
+      "key": "balancer",
       "details": "Balancer's smart pools use a constant mean formula which allows for more than two assets and weights outside of fifty-fifty, making it different from other pooling options. Balancer pools are able to include up to eight tokens at any number of weights. The constant mean formula also permits adaptive fee structures that can react to market forces like volatility or demand, giving projects the ability to experiment with liquidity.",
+      "order": 4,
       "explanations": [
         {
           "key": "balancer-intoduction",
+          "title": "Balancer Intoduction",
           "shortTitle": "Introduction",
-          "details": "## Intro\nBalancer's smart pools use a constant mean formula which allows for more than two assets and weights outside of fifty-fifty, making it different from other pooling options. Balancer pools are able to include up to eight tokens at any number of weights. The constant mean formula also permits adaptive fee structures that can react to market forces like volatility or demand, giving projects the ability to experiment with liquidity.\n\n## Background\nFernando Martinelli, a well-known Brazilian entrepreneur and Maker Community member, founded Balancer. In 2018, he tested the exchange on Block as the first project of Balancer labs. In 2019, he and his technical colleague Nikolai Mushegian released the exchange's whitepaper. An Automated Market Maker (AMM) called Balancer enables customers to generate programmable liquidity. AMMs are decentralized exchanges where instead of the traditional order book method to trade assets smart contract acts as a partner in every trade. These contracts contain a cluster of tokens, called a liquidity pool. These liquidity pools ensure constant liquidity for buyers and sellers so they do not have to wait for orders to match.\n  \n\n## Features\nKey features of Balancer DEX include\n1. **Valut** - Vault is a smart contract that controls all tokens in every balancer pool. It also serves as the gateway through which most operations in the exchange (Swaps, market entries, and exits) are carried out.\n2. **Balancer Pools** - Balancer pools’ smart contracts determine how traders exchange tokens. They allow customization and also allows anybody to create a pool\n3. **Smart Order Router (SOR)** - SOR identifies the best price for selling and buying orders in a transaction in either one or multiple liquidity pools. It increases parallel to the expansion and diversity of the Balancer pools as it gets new options to check from.\n4. **veBAL** - BAL holders/LPs should lock/stake their BAL into veBAL to get a host of benefits in the new vote-escrowed (ve) system.\n5. **Onchain Gauge System** - Since transitioning to the veModel, BAL emissions get distributed through the gauge system. Gauges allow LPs (liquidity providers) to stake their BPT to claim BAL from liquidity mining.",
-          "title": "Balancer Intoduction"
+          "details": "## Intro\nBalancer's smart pools use a constant mean formula which allows for more than two assets and weights outside of fifty-fifty, making it different from other pooling options. Balancer pools are able to include up to eight tokens at any number of weights. The constant mean formula also permits adaptive fee structures that can react to market forces like volatility or demand, giving projects the ability to experiment with liquidity.\n\n## Background\nFernando Martinelli, a well-known Brazilian entrepreneur and Maker Community member, founded Balancer. In 2018, he tested the exchange on Block as the first project of Balancer labs. In 2019, he and his technical colleague Nikolai Mushegian released the exchange's whitepaper. An Automated Market Maker (AMM) called Balancer enables customers to generate programmable liquidity. AMMs are decentralized exchanges where instead of the traditional order book method to trade assets smart contract acts as a partner in every trade. These contracts contain a cluster of tokens, called a liquidity pool. These liquidity pools ensure constant liquidity for buyers and sellers so they do not have to wait for orders to match.\n  \n\n## Features\nKey features of Balancer DEX include\n1. **Valut** - Vault is a smart contract that controls all tokens in every balancer pool. It also serves as the gateway through which most operations in the exchange (Swaps, market entries, and exits) are carried out.\n2. **Balancer Pools** - Balancer pools’ smart contracts determine how traders exchange tokens. They allow customization and also allows anybody to create a pool\n3. **Smart Order Router (SOR)** - SOR identifies the best price for selling and buying orders in a transaction in either one or multiple liquidity pools. It increases parallel to the expansion and diversity of the Balancer pools as it gets new options to check from.\n4. **veBAL** - BAL holders/LPs should lock/stake their BAL into veBAL to get a host of benefits in the new vote-escrowed (ve) system.\n5. **Onchain Gauge System** - Since transitioning to the veModel, BAL emissions get distributed through the gauge system. Gauges allow LPs (liquidity providers) to stake their BPT to claim BAL from liquidity mining."
         },
         {
           "key": "balancer-pools",
@@ -722,9 +724,179 @@
           "title": "Gauge System"
         }
       ],
+      "questions": [
+        {
+          "answerKeys": [
+            "fdb21e52"
+          ],
+          "choices": [
+            {
+              "content": "Sam Bankman-Fried",
+              "key": "90d9e6a3"
+            },
+            {
+              "content": "Fernando Martinelli",
+              "key": "fdb21e52"
+            },
+            {
+              "content": "Vitalik Buterin",
+              "key": "27c4b3a5"
+            },
+            {
+              "content": "Satoshi Nakamoto",
+              "key": "bc17d20d"
+            }
+          ],
+          "content": "Who founded Balancer?",
+          "type": "SingleChoice",
+          "uuid": "8f8f353f-09c2-4b21-8747-0ffead8af8db",
+          "hint": "NoHint",
+          "explanation": "Fernando Martinelli, a well-known Brazilian entrepreneur and Maker Community member, founded Balancer.\n"
+        },
+        {
+          "answerKeys": [
+            "530eca9e"
+          ],
+          "choices": [
+            {
+              "content": "Automated Market Maker",
+              "key": "530eca9e"
+            },
+            {
+              "content": "Lending and Borrowing Protocol",
+              "key": "0b8e913d"
+            },
+            {
+              "content": "Staking Protocol",
+              "key": "f9d1f215"
+            },
+            {
+              "content": "Centralized Crypto Exchange",
+              "key": "5332bcd2"
+            }
+          ],
+          "content": "What is Balancer?",
+          "type": "SingleChoice",
+          "uuid": "9fcfb563-a2a4-4daa-8c00-3fc39cac8785",
+          "hint": "NoHint",
+          "explanation": "Balancer is an AMM that uses a constant mean formula which allows for more\nthan two assets and weights outside of fifty-fifty, making it different\nfrom other AMMs\n"
+        },
+        {
+          "answerKeys": [
+            "f309ca97"
+          ],
+          "choices": [
+            {
+              "content": "It is the smart contract that records and saves all the transactions",
+              "key": "ae3fccfd"
+            },
+            {
+              "content": "It is the smart contract that manages routing of all the orders",
+              "key": "6a5ec34d"
+            },
+            {
+              "content": "It is the smart contract that manages and holds all the tokens in a Balancer pool. It is also the portal through which most Balancer operations occur.",
+              "key": "f309ca97"
+            },
+            {
+              "content": "It is the smart contract that holds all the veBAL",
+              "key": "b9716411"
+            }
+          ],
+          "content": "Which one of these best defines a Balancer Vault?",
+          "type": "SingleChoice",
+          "uuid": "d42d3fe4-e9fa-444a-9e26-cfd6ee7e24f6",
+          "hint": "NoHint",
+          "explanation": "Vault is a smart contract that controls all tokens in every\nbalancer pool. It also serves as the gateway through which most operations\nin the exchange (Swaps, market entries, and exits) are carried out.\n"
+        },
+        {
+          "answerKeys": [
+            "95df8d90"
+          ],
+          "choices": [
+            {
+              "content": "Liquidity Bootstrapping Pools",
+              "key": "91a8d8b5"
+            },
+            {
+              "content": "MetaStable Pools",
+              "key": "d1c7f723"
+            },
+            {
+              "content": "Managed Pools",
+              "key": "44414886"
+            },
+            {
+              "content": "Centralized Pools",
+              "key": "95df8d90"
+            }
+          ],
+          "content": "Which of these pools is not present in Balancer?",
+          "type": "SingleChoice",
+          "uuid": "52562825-b4ab-4760-8687-0c98d8c0ee7f",
+          "hint": "NoHint",
+          "explanation": "There are no Centralized Pools in Balancer"
+        },
+        {
+          "answerKeys": [
+            "be878d37"
+          ],
+          "choices": [
+            {
+              "content": "By locking BPT of the 80/20 BAL/ETH pool",
+              "key": "be878d37"
+            },
+            {
+              "content": "By locking BAL for 1 year",
+              "key": "f13d8f7a"
+            },
+            {
+              "content": "By locking ETH for 1 year",
+              "key": "24198419"
+            },
+            {
+              "content": "By locking USDC",
+              "key": "7513a782"
+            }
+          ],
+          "content": "How can one receive veBAL?",
+          "type": "SingleChoice",
+          "uuid": "b643f4d7-f760-4ae1-8033-7b9d601dd130",
+          "hint": "NoHint",
+          "explanation": "Instead of pure BAL, BPT of the 80/20 BAL/ETH pool can be locked into\nveBAL, similar to how CRV can be locked into veCRV. This has the big\nadvantage of keeping BAL liquid as well as setting a precedent for other\nteams to do the same with their 80/20 Balancer pools\n"
+        },
+        {
+          "answerKeys": [
+            "849f8f0e",
+            "31415b4f"
+          ],
+          "choices": [
+            {
+              "content": "veBAL holders get 10% of all fees colleted",
+              "key": "a6ad50ad"
+            },
+            {
+              "content": "75% of all fees generated by the protocol are proportionally distributed to veBAL holders",
+              "key": "31415b4f"
+            },
+            {
+              "content": "veBAL holders get 10% of all BAL minted weekly",
+              "key": "849f8f0e"
+            },
+            {
+              "content": "veBAL holders also get 2000 USDC every week",
+              "key": "d29c2e1f"
+            }
+          ],
+          "content": "What are the additional benefits that veBAL holders receive?",
+          "type": "MultipleChoice",
+          "uuid": "c668712e-bf79-450c-937d-8a552e9daba2",
+          "hint": "NoHint",
+          "explanation": "Users who invest in the BAL/WETH 80/20 Pool are rewarded with BPT\n(Balancer Pool Token). veBAL lockers also receive 75% of protocol fees. In\naddition to 75% of protocol revenues, veBAL holders also get 10% of all\nBAL minted weekly.\n"
+        }
+      ],
       "readings": [],
-      "summaries": [],
-      "questions": []
+      "summaries": []
     }
   ]
 }
