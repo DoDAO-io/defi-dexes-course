@@ -2,6 +2,19 @@
   title: Introduction
   shortTitle: Introduction
   details: >
+    Inspired by one of Vitalik’s reddit
+    [posts](https://www.reddit.com/r/ethereum/comments/55m04x/lets_run_onchain_decentralized_exchanges_the_way/)
+    a few years ago, Hayden Adams initially sought to gain some Solidity
+    practice; however, this training exercise quickly evolved into receiving a
+    grant from the Ethereum Foundation, and then further development of Uniswap.
+
+
+    Uniswap was launched in November 2018 and was the first automated market
+    maker (AMM) in the Ethereum ecosystem. This model quickly became popular and
+    sparked a number of Uniswap clones (SushiSwap, PankakeSwap, MoonSwap). Since
+    then, Uniswap has released a third major release of its AMM.
+
+
     ### Version 1
 
     Uniswap V1 allows traders on the Ethereum network to use a new system of
