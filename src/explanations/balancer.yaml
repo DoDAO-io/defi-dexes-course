@@ -1,7 +1,31 @@
 - key: balancer-intoduction
   title: Balancer Intoduction
   shortTitle: Introduction
-  details: >
+  details: >-
+    ## Intro
+
+    Balancer's smart pools use a constant mean formula which allows for more
+    than two assets and weights outside of fifty-fifty, making it different from
+    other pooling options. Balancer pools are able to include up to eight tokens
+    at any number of weights. The constant mean formula also permits adaptive
+    fee structures that can react to market forces like volatility or demand,
+    giving projects the ability to experiment with liquidity.
+
+
+    ## Background
+
+    Fernando Martinelli, a well-known Brazilian entrepreneur and Maker Community
+    member, founded Balancer. In 2018, he tested the exchange on Block as the
+    first project of Balancer labs. In 2019, he and his technical colleague
+    Nikolai Mushegian released the exchange's whitepaper. An Automated Market
+    Maker (AMM) called Balancer enables customers to generate programmable
+    liquidity. AMMs are decentralized exchanges where instead of the traditional
+    order book method to trade assets smart contract acts as a partner in every
+    trade. These contracts contain a cluster of tokens, called a liquidity pool.
+    These liquidity pools ensure constant liquidity for buyers and sellers so
+    they do not have to wait for orders to match.
+      
+
     ## Features
 
     Key features of Balancer DEX include
@@ -25,30 +49,3 @@
     5. **Onchain Gauge System** - Since transitioning to the veModel, BAL
     emissions get distributed through the gauge system. Gauges allow LPs
     (liquidity providers) to stake their BPT to claim BAL from liquidity mining.
-
-
-    ## Vault
-
-    The Vault is the smart contract used by Balancer. It is the smart contract
-    that manages and holds all the tokens in a Balancer pool. It is also the
-    portal through which most Balancer operations occur. It also separates
-    accounting and token management from the pool logic. This architecture
-    unifies several pool layouts under one roof; the Vault is agnostic to pool
-    math and can support any system that meets a few criteria. This allows smart
-    contracts much simpler as they now play a minor part in managing funds. If
-    you have a great idea for a new trading system, you can create a custom pool
-    that taps into Balancer's existing liquidity. This means you don't have to
-    build your own decentralized exchange (DEX).
-
-
-    Furthermore, other decentralized pools' token accounting is paired with pool
-    logic which makes multi-hop trading quite costly since ERC-20 has to be
-    transferred at each hop. Balancer gains an advantage here since it stores
-    all its tokens under one contract, The Vault. This difference allows for
-    much greater swapping efficiency. Rather than transferring tokens on each
-    step of a multi-hop trade, it only keeps internal records of which pool is
-    holding what, transferring tokens only at the input and output steps. This
-    reduction in token transfers makes the entire process highly gas efficient.
-    Additionally, The Vault keeps track of the balances for arbitrary Ethereum
-    addresses. Users have access to the Vault where they can store Internal
-    Balances and make trades to/from them.
