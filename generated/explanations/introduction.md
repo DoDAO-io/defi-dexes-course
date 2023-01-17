@@ -149,4 +149,21 @@ $$
   alt="Constant Sum Market Maker">
   <figcaption>Source: Curve Whitepaper</figcaption>
 </figure> 
+ **Liquidity Pools**        
+## LP Tokens
+The liquidity pool is a smart contract that holds cryptocurrencies or tokens to facilitate trades between assets on a decentralized exchange (DEX). Generally, the more tokens present in the contract, the better the prices offered to the user. Also, DEXs want to create pools for most of the famous token pairs/sets so that they can cater to a broader audience.
+
+Most liquidity providers earn various rewards from the exchanges where they have deposited their tokens. This incentive is what encourages investors to add liquidity to the pool. When a user supplies a pool with liquidity, in exchange, the provider is often rewarded with liquidity provider (LP) tokens. These LP tokens act as an "I Owe You" contract/proof that allows the provider to get their original investment back. To redeem their investment, the provider simply returns the LP tokens to the smart contract.  A crypto liquidity provider is typically rewarded with LP tokens based on the amount of liquidity they've supplied to the pool. For example, if a pool contains 1000 ETH and a provider adds 100 ETH to it, they would be rewarded with 10% of all LP tokens minted.
+
+When a pool facilitates a trade, a fraction of the fees associated with that trade are distributed to all of the LP token holders. In order to get back the liquidity they contributed (along with any fees they've accrued), the LP tokens must be destroyed.
+
+## Rewards - Yield Farming
+
+By providing liquidity, investors can help to make the protocol more attractive to users, and earn rewards in the process. Many protocols offer additional rewards to investors who provide liquidity to particular pools. These rewards may take the form of a share of the trading fees, or tokens issued by the protocol.
+
+The process of earning rewards is referred to as Yield Farming or Liquidity Mining. 
+
+Protocols also face an issue with temporary liquidity, as investors are known to move to other platforms that offer better returns. In order to combat this, many innovative techniques have been developed over the last two years to provide protocols with long-term liquidity or boosted rewards for those who commit to the platform for a longer term.
+
+ 
  
