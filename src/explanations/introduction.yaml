@@ -339,3 +339,33 @@
       alt="Constant Sum Market Maker">
       <figcaption>Source: Curve Whitepaper</figcaption>
     </figure>
+- key: liquidity-pools
+  shortTitle: Liquidity Pools
+  details: >+
+    An operational crypto liquidity pool must be designed in a way that
+    incentivizes crypto liquidity providers to stake their assets in a pool.
+    That’s why most liquidity providers earn trading fees and crypto rewards
+    from the exchanges upon which they pool tokens. When a user supplies a pool
+    with liquidity, the provider is often rewarded with liquidity provider (LP)
+    tokens. LP tokens can be valuable assets in their own right, and can be used
+    throughout the DeFi ecosystem in various capacities.
+
+
+    Usually, a crypto liquidity provider receives LP tokens in proportion to the
+    amount of liquidity they have supplied to the pool. When a pool facilitates
+    a trade, a fractional fee is proportionally distributed amongst the LP token
+    holders. For the liquidity provider to get back the liquidity they
+    contributed (in addition to accrued fees from their portion), their LP
+    tokens must be destroyed.
+
+
+    Liquidity pools maintain fair market values for the tokens they hold thanks
+    to AMM algorithms, which maintain the price of tokens relative to one
+    another within any particular pool. Liquidity pools in different protocols
+    may use algorithms that differ slightly. For example: Uniswap liquidity
+    pools use a constant product formula to maintain price ratios, and many DEX
+    platforms utilize a similar model. This algorithm helps ensure that a pool
+    consistently provides crypto market liquidity by managing the cost and ratio
+    of the corresponding tokens as the demanded quantity increases.
+
+  title: Liquidity Pools
