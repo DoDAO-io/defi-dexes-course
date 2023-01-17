@@ -342,25 +342,32 @@
 - key: liquidity-pools
   title: Liquidity Pools
   shortTitle: Liquidity Pools
-  details: >-
+  details: >+
     ## Basics
 
-    A liquidity pool of cryptocurrencies or tokens locked in a smart contract
-    can be used to facilitate trades between the assets on a decentralized
-    exchange (DEX).
+    The liquidity pool is a smart contract that holds cryptocurrencies or tokens
+    to facilitate trades between assets on a decentralized exchange (DEX).
+    Generally, the more tokens present in the contract, the better the prices
+    offered to the user. Also, DEXs want to create pools for most of the famous
+    token pairs/sets so that they can cater to a broader audience.
 
 
-    Most liquidity providers earn trading fees and crypto rewards from the
-    exchanges upon which they pool tokens. When a user supplies a pool with
-    liquidity, the provider is often rewarded with liquidity provider (LP)
-    tokens.
+    Most liquidity providers earn various rewards from the exchanges where they
+    have deposited their tokens. This incentive is what encourages investors to
+    add liquidity to the pool. When a user supplies a pool with liquidity, in
+    exchange, the provider is often rewarded with liquidity provider (LP)
+    tokens. These LP tokens act as an "I Owe You" contract/proof that allows the
+    provider to get their original investment back. To redeem their investment,
+    the provider simply returns the LP tokens to the smart contract.  A crypto
+    liquidity provider is typically rewarded with LP tokens based on the amount
+    of liquidity they've supplied to the pool. For example, if a pool contains
+    1000 ETH and a provider adds 100 ETH to it, they would be rewarded with 10%
+    of all LP tokens minted.
 
 
-    Typically, a crypto liquidity provider is rewarded with LP tokens based on
-    the amount of liquidity they've supplied to the pool. When a pool
-    facilitates a trade, a fraction of the fees associated with that trade are
-    distributed to all of the LP token holders. In order to get back the
-    liquidity they contributed (along with any fees they've accrued), the LP
+    When a pool facilitates a trade, a fraction of the fees associated with that
+    trade are distributed to all of the LP token holders. In order to get back
+    the liquidity they contributed (along with any fees they've accrued), the LP
     tokens must be destroyed.
 
 
@@ -379,4 +386,5 @@
     tokens. So how does a crypto liquidity provider choose where to place their
     funds? This is where yield farming comes into play. The idea of yield
     farming is to stake or lock up tokens in various DeFi applications in order
-    to generate tokenized rewards that help maximize earnings.
+    to generate tokenized rewards that help maximize earnings
+
