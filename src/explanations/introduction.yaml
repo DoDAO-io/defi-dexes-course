@@ -340,8 +340,11 @@
       <figcaption>Source: Curve Whitepaper</figcaption>
     </figure>
 - key: liquidity-pools
+  title: Liquidity Pools
   shortTitle: Liquidity Pools
-  details: >+
+  details: >-
+    ## Baiscs
+
     An operational crypto liquidity pool must be designed in a way that
     incentivizes crypto liquidity providers to stake their assets in a pool.
     That’s why most liquidity providers earn trading fees and crypto rewards
@@ -368,4 +371,26 @@
     consistently provides crypto market liquidity by managing the cost and ratio
     of the corresponding tokens as the demanded quantity increases.
 
-  title: Liquidity Pools
+
+    ## Rewards - Yield Farming
+
+    To create a better trading experience, various protocols offer even more
+    incentives for users to provide liquidity by providing more tokens for
+    particular “incentivized” pools. Participating in these incentivized
+    liquidity pools as a provider to get the maximum amount of LP tokens is
+    called liquidity mining. Liquidity mining is how crypto exchange liquidity
+    providers can optimize their LP token earnings on a particular market or
+    platform.
+
+
+    There are many different DeFi markets, platforms, and incentivized pools
+    that allow you to earn rewards for providing and mining liquidity via LP
+    tokens. So how does a crypto liquidity provider choose where to place their
+    funds? This is where yield farming comes into play. Yield farming is the
+    practice of staking or locking up cryptocurrencies within a blockchain
+    protocol to generate tokenized rewards. The idea of yield farming is to
+    stake or lock up tokens in various DeFi applications in order to generate
+    tokenized rewards that help maximize earnings. This allows a crypto exchange
+    liquidity provider to collect high returns for slightly higher risk as their
+    funds are distributed to trading pairs and incentivized pools with the
+    highest trading fee and LP token payouts across multiple platforms.
