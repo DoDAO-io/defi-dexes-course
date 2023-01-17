@@ -343,7 +343,7 @@
   title: Liquidity Pools
   shortTitle: Liquidity Pools
   details: >+
-    ## Basics
+    ## LP Tokens
 
     The liquidity pool is a smart contract that holds cryptocurrencies or tokens
     to facilitate trades between assets on a decentralized exchange (DEX).
@@ -373,18 +373,21 @@
 
     ## Rewards - Yield Farming
 
-    In order to create a better trading experience, various protocols offer
-    incentives for users to provide liquidity by providing more tokens for
-    particular “incentivized” pools. By participating in these incentivized
-    liquidity pools as a provider, you can optimize your LP token earnings on a
-    particular market or platform. Liquidity mining is how crypto exchange
-    liquidity providers can earn the maximum amount of LP tokens.
+
+    By providing liquidity, investors can help to make the protocol more
+    attractive to users, and earn rewards in the process. Many protocols offer
+    additional rewards to investors who provide liquidity to particular pools.
+    These rewards may take the form of a share of the trading fees, or tokens
+    issued by the protocol.
 
 
-    There are many different DeFi markets, platforms, and incentivized pools
-    that allow you to earn rewards for providing and mining liquidity via LP
-    tokens. So how does a crypto liquidity provider choose where to place their
-    funds? This is where yield farming comes into play. The idea of yield
-    farming is to stake or lock up tokens in various DeFi applications in order
-    to generate tokenized rewards that help maximize earnings
+    The process of earning rewards is referred to as Yield Farming or Liquidity
+    Mining. 
+
+
+    Protocols also face an issue with temporary liquidity, as investors are
+    known to move to other platforms that offer better returns. In order to
+    combat this, many innovative techniques have been developed over the last
+    two years to provide protocols with long-term liquidity or boosted rewards
+    for those who commit to the platform for a longer term.
 
