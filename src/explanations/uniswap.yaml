@@ -48,7 +48,29 @@
     ### Version 3
 
       #### Concentrated Liquidity
-      Uniswap V3 was launched on March 2021, on the Ethereum Mainnnet and Optimism Mainnet (Secondary Network used to scale Ethereum). The big update in V3 is the concept of concentrated Liquidity. The basic advantage of concentrated liquidity is that one can make their money work harder by applying some rules to it. Generally, when an investor puts their money in the liquidity pool and this pool lets other traders trade back and forth in the same pool and the liquidity provider (the investor) collects some small fraction of fees for each trade. In V3, the investor chooses a certain price range where they want to concentrate their liquidity. For example, if the investor chooses the bracket of $3000-$4000 for the Ethereum pool it means they want to trade their assets only within this range of Ethereum, This concentrated liquidity provides better return rates compared to fairly distributed funds. However there is a disadvantage of Impermanent loss, but as long as the price range of Ethereum is within the range of the concentrated liquidity the investor earns better returns.
+      Uniswap V3 was launched on March 2021, on the Ethereum Mainnnet and Optimism Mainnet (Secondary Network used to scale Ethereum). The big update in V3 is the concept of concentrated Liquidity. 
+
+    Previously, liquidity was evenly spread across the price curve from 0 to
+    infinity. This uniform distribution allowed for trading throughout the
+    entire price range without a loss of liquidity. However, in many cases, most
+    of the liquidity remained unused.
+
+
+    For instance, stablecoin pairs have a relatively stable price ratio, which
+    means that liquidity beyond the typical price range is seldom utilized. In
+    the v2 DAI/USDC pair, only about 0.50% of the available capital is used for
+    trading between $0.99 and $1.01, the price range where LPs would expect to
+    see the most volume and earn the most fees.
+
+
+    With the v3 system, liquidity providers have the option to concentrate their
+    capital to smaller price intervals than the entire range from 0 to infinity.
+    In stablecoin/stablecoin pairs, an LP may choose to allocate capital only to
+    the 0.99-1.01 range. This approach offers traders greater liquidity around
+    the mid-price, and LPs earn more trading fees with their capital. This
+    liquidity concentration is called a "position," and LPs can have various
+    positions in a single pool, resulting in personalized price curves that
+    reflect their preferences.
 
       #### Flexible Fees
       Uniswap V1 consisted only of flat fees of 0.3% and V2 had a 0.05% protocol fee which could be turned on/off. Whereas V3 onwards there is a three-tier fee structure:
